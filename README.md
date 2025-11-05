@@ -11,6 +11,7 @@ This repository provides open-access football event data from **Impect**, a lead
 - **Data Points**:
   - Event Data
   - Event KPIs
+  - Player KPIs (Match Aggregates)
   - Team Lineups & Substitutions
   - Match Info
   - Player Info
@@ -65,11 +66,11 @@ To get started with the open dataset simply,
     df = (
         events.transform(
             to_orientation="STATIC_HOME_AWAY"
-        )  # Now, the home team always attacks left to right
-        .filter(lambda event: event.period.id == 1)  # Only keep frames from the first half
+        )  # now, the home team always attacks left to right
+        .filter(lambda event: event.period.id == 1)  # only keep frames from the first half
         .to_df(
             engine="polars"
-        )  # Convert to a Polars DataFrame, or use engine="pandas" for a Pandas DataFrame
+        )  # convert to a Polars DataFrame, or use engine="pandas" for a Pandas DataFrame
     )
     ```
 
@@ -84,6 +85,7 @@ open-data/
 │   │-- events_kpis/          # KPIs on event level for the above event data. The filename contains the match ID.
 │   │-- lineups/              # Team lineups and substitutions. The filename contains the match ID.
 │   │-- matches/              # Match metadata. The filename contains the iteration ID.
+│   │-- player_kpis/          # KPI aggregates per player per position per match including play duration. The filename contains the match ID.
 │   │-- players/              # Player master data. The filename contains the iteration ID.
 │   │-- squads/               # Squad master data. The filename contains the iteration ID.
 │   │-- countries.json        # List of countries.
