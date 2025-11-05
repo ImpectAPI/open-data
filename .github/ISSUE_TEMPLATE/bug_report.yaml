@@ -1,0 +1,59 @@
+name: 🐛 Bug Report
+description: Report a bug or unexpected behavior when using Impect Open Data
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the bug in detail.
+      placeholder: e.g., API call returns an error instead of expected data
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the bug.
+      placeholder: |
+        1. Browse to the following file: 'data/events/events_122838.json'
+        2. Run the following code:
+           ```python
+           import pandas as pd
+           pd.read_json('data/events/events_122838.json')
+           ```
+        3. Observe the error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should have happened?
+      placeholder: The API should return event data.
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: |
+        An error is raised: `HTTPError 404: Customer not found`.
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Python version, R version, OS, and other dependencies.
+      placeholder: |
+        - OS: macOS 14.1
+        - Python: 3.11
+        - R: 4.2.0
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other info, logs, or screenshots.

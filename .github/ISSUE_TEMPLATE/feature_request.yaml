@@ -1,0 +1,37 @@
+name: 💡 Feature Request
+description: Suggest a new feature or improvement for Impect Open Data
+labels: [enhancement]
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Short description of the feature.
+      placeholder: Add support for new API field 'stadium'
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this feature needed? What problem does it solve?
+      placeholder: Our team needs to update the stadium field for all matches in a batch.
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution
+      description: How would you implement it? Include code snippets if possible.
+      placeholder: |
+        Add the field 'stadium' to match_info jsons.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative approaches or workarounds.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other context or examples.

@@ -1,0 +1,16 @@
+blank_issues_enabled: true
+contact_links: []
+
+# Automatically assign issues based on template
+issue_templates:
+  - name: "🐛 Bug Report"
+    about: "Report a bug"
+    title: "[BUG] "
+    labels: ["bug"]
+    assignees: ["your-github-username"]
+
+  - name: "💡 Feature Request"
+    about: "Suggest a new feature"
+    title: "[FEATURE] "
+    labels: ["enhancement"]
+    assignees: ["your-github-username"]
