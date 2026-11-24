@@ -1,7 +1,7 @@
 {
     "id": 123022,
     "dateTime": "2024-02-11T14:30:00Z",
-    "lastCalculationDate": "2025-08-08T02:38:31.267959Z",
+    "lastCalculationDate": "2026-11-21T13:05:44.757383Z",
     "iterationId": 743,
     "squadHome": {
         "id": 46,
@@ -297,7 +297,7 @@
                 "formation": "4-2-3-1"
             }
         ],
-        "coachId": null
+        "coachId": 661
     },
     "squadAway": {
         "id": 42,
@@ -443,8 +443,8 @@
         "substitutions": [
             {
                 "gameTime": {
-                    "gameTime": "45:00.1190",
-                    "gameTimeInSec": 10000.119
+                    "gameTime": "45:00.0000",
+                    "gameTimeInSec": 10000.0
                 },
                 "playerId": 943,
                 "toPosition": "BANK",
@@ -456,8 +456,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "45:00.1190",
-                    "gameTimeInSec": 10000.119
+                    "gameTime": "45:00.0000",
+                    "gameTimeInSec": 10000.0
                 },
                 "playerId": 1286,
                 "toPosition": "DEFENSE_MIDFIELD",
@@ -469,8 +469,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "45:00.1190",
-                    "gameTimeInSec": 10000.119
+                    "gameTime": "45:00.0000",
+                    "gameTimeInSec": 10000.0
                 },
                 "playerId": 16761,
                 "toPosition": "ATTACKING_MIDFIELD",
@@ -482,8 +482,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "45:00.1190",
-                    "gameTimeInSec": 10000.119
+                    "gameTime": "45:00.0000",
+                    "gameTimeInSec": 10000.0
                 },
                 "playerId": 23127,
                 "toPosition": "RIGHT_WINGBACK_DEFENDER",
@@ -495,8 +495,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "45:00.1190",
-                    "gameTimeInSec": 10000.119
+                    "gameTime": "45:00.0000",
+                    "gameTimeInSec": 10000.0
                 },
                 "playerId": 27388,
                 "toPosition": "BANK",
@@ -508,8 +508,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "45:00.1190",
-                    "gameTimeInSec": 10000.119
+                    "gameTime": "45:00.0000",
+                    "gameTimeInSec": 10000.0
                 },
                 "playerId": 28193,
                 "toPosition": "BANK",
@@ -521,8 +521,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "45:00.1190",
-                    "gameTimeInSec": 10000.119
+                    "gameTime": "45:00.0000",
+                    "gameTimeInSec": 10000.0
                 },
                 "playerId": 29174,
                 "toPosition": "DEFENSE_MIDFIELD",
@@ -632,6 +632,7 @@
                 "formation": "5-2-2-1"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 6150
+    },
+    "stadiumId": 819
 }

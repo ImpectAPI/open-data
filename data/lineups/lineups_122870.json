@@ -1,7 +1,7 @@
 {
     "id": 122870,
     "dateTime": "2023-09-16T13:30:00Z",
-    "lastCalculationDate": "2025-07-24T01:18:06.737499Z",
+    "lastCalculationDate": "2026-11-21T13:18:16.902831Z",
     "iterationId": 743,
     "squadHome": {
         "id": 27,
@@ -173,8 +173,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "66:58.8770",
-                    "gameTimeInSec": 11318.877
+                    "gameTime": "66:18.6420",
+                    "gameTimeInSec": 11278.642
                 },
                 "playerId": 1038,
                 "toPosition": "CENTER_FORWARD",
@@ -186,8 +186,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "66:58.8770",
-                    "gameTimeInSec": 11318.877
+                    "gameTime": "66:18.6420",
+                    "gameTimeInSec": 11278.642
                 },
                 "playerId": 1265,
                 "toPosition": "CENTER_FORWARD",
@@ -199,8 +199,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "66:58.8770",
-                    "gameTimeInSec": 11318.877
+                    "gameTime": "66:18.6420",
+                    "gameTimeInSec": 11278.642
                 },
                 "playerId": 29452,
                 "toPosition": "DEFENSE_MIDFIELD",
@@ -212,8 +212,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "66:58.8770",
-                    "gameTimeInSec": 11318.877
+                    "gameTime": "66:18.6420",
+                    "gameTimeInSec": 11278.642
                 },
                 "playerId": 118919,
                 "toPosition": "BANK",
@@ -375,8 +375,8 @@
                 "formation": "4-2-3-1"
             },
             {
-                "gameTime": "66:58.8770",
-                "gameTimeInSec": 11318.877,
+                "gameTime": "66:18.6420",
+                "gameTimeInSec": 11278.642,
                 "formation": "4-1-3-2"
             },
             {
@@ -385,7 +385,7 @@
                 "formation": "UNKNOWN"
             }
         ],
-        "coachId": null
+        "coachId": 4716
     },
     "squadAway": {
         "id": 31,
@@ -751,6 +751,7 @@
                 "formation": "4-2-3-1"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 4236
+    },
+    "stadiumId": 818
 }

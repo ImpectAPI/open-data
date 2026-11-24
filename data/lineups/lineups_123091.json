@@ -1,7 +1,7 @@
 {
     "id": 123091,
     "dateTime": "2024-04-12T18:30:00Z",
-    "lastCalculationDate": "2025-07-24T00:27:45.735633Z",
+    "lastCalculationDate": "2026-11-21T13:01:55.483195Z",
     "iterationId": 743,
     "squadHome": {
         "id": 39,
@@ -272,7 +272,7 @@
                 "formation": "5-3-2"
             }
         ],
-        "coachId": null
+        "coachId": 5662
     },
     "squadAway": {
         "id": 446,
@@ -394,12 +394,12 @@
             {
                 "playerId": 26762,
                 "position": "CENTER_FORWARD",
-                "positionSide": "CENTRE_LEFT"
+                "positionSide": "CENTRE_RIGHT"
             },
             {
                 "playerId": 32182,
                 "position": "CENTER_FORWARD",
-                "positionSide": "CENTRE_RIGHT"
+                "positionSide": "CENTRE_LEFT"
             },
             {
                 "playerId": 42376,
@@ -452,11 +452,24 @@
                     "gameTime": "65:24.5590",
                     "gameTimeInSec": 11224.559
                 },
+                "playerId": 26762,
+                "toPosition": "CENTER_FORWARD",
+                "positionSide": "CENTRE_LEFT",
+                "fromPosition": "CENTER_FORWARD",
+                "fromPositionSide": "CENTRE_RIGHT",
+                "exchangedPlayerId": null,
+                "substitutionType": null
+            },
+            {
+                "gameTime": {
+                    "gameTime": "65:24.5590",
+                    "gameTimeInSec": 11224.559
+                },
                 "playerId": 32182,
                 "toPosition": "BANK",
                 "positionSide": "UNKNOWN",
                 "fromPosition": "CENTER_FORWARD",
-                "fromPositionSide": "CENTRE_RIGHT",
+                "fromPositionSide": "CENTRE_LEFT",
                 "exchangedPlayerId": null,
                 "substitutionType": null
             },
@@ -521,6 +534,7 @@
                 "formation": "5-3-2"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 3892
+    },
+    "stadiumId": 870
 }

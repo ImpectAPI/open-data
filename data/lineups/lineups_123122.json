@@ -1,7 +1,7 @@
 {
     "id": 123122,
     "dateTime": "2024-05-04T13:30:00Z",
-    "lastCalculationDate": "2025-07-24T00:23:17.471992Z",
+    "lastCalculationDate": "2026-11-21T13:00:50.177343Z",
     "iterationId": 743,
     "squadHome": {
         "id": 38,
@@ -271,7 +271,7 @@
                 "formation": "5-2-2-1"
             }
         ],
-        "coachId": null
+        "coachId": 5665
     },
     "squadAway": {
         "id": 32,
@@ -417,8 +417,8 @@
         "substitutions": [
             {
                 "gameTime": {
-                    "gameTime": "45:00.0700",
-                    "gameTimeInSec": 10000.07
+                    "gameTime": "45:00.0000",
+                    "gameTimeInSec": 10000.0
                 },
                 "playerId": 1902,
                 "toPosition": "BANK",
@@ -430,8 +430,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "45:00.0700",
-                    "gameTimeInSec": 10000.07
+                    "gameTime": "45:00.0000",
+                    "gameTimeInSec": 10000.0
                 },
                 "playerId": 4168,
                 "toPosition": "CENTER_FORWARD",
@@ -443,8 +443,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "45:00.0700",
-                    "gameTimeInSec": 10000.07
+                    "gameTime": "45:00.0000",
+                    "gameTimeInSec": 10000.0
                 },
                 "playerId": 32176,
                 "toPosition": "CENTER_FORWARD",
@@ -655,6 +655,7 @@
                 "formation": "4-4-2 (flat)"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 5667
+    },
+    "stadiumId": 866
 }

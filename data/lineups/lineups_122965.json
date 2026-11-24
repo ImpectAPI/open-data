@@ -1,7 +1,7 @@
 {
     "id": 122965,
     "dateTime": "2023-12-16T17:30:00Z",
-    "lastCalculationDate": "2025-08-29T02:40:52.980273Z",
+    "lastCalculationDate": "2026-11-21T13:11:11.658323Z",
     "iterationId": 743,
     "squadHome": {
         "id": 37,
@@ -284,7 +284,7 @@
                 "formation": "4-4-2 (flat)"
             }
         ],
-        "coachId": null
+        "coachId": 3598
     },
     "squadAway": {
         "id": 31,
@@ -384,12 +384,12 @@
             {
                 "playerId": 997,
                 "position": "CENTRAL_DEFENDER",
-                "positionSide": "CENTRE_LEFT"
+                "positionSide": "CENTRE"
             },
             {
                 "playerId": 1019,
                 "position": "CENTRAL_DEFENDER",
-                "positionSide": "CENTRE"
+                "positionSide": "CENTRE_LEFT"
             },
             {
                 "playerId": 1027,
@@ -537,32 +537,6 @@
                     "gameTime": "74:23.8310",
                     "gameTimeInSec": 11763.831
                 },
-                "playerId": 997,
-                "toPosition": "CENTRAL_DEFENDER",
-                "positionSide": "CENTRE",
-                "fromPosition": "CENTRAL_DEFENDER",
-                "fromPositionSide": "CENTRE_LEFT",
-                "exchangedPlayerId": null,
-                "substitutionType": null
-            },
-            {
-                "gameTime": {
-                    "gameTime": "74:23.8310",
-                    "gameTimeInSec": 11763.831
-                },
-                "playerId": 1019,
-                "toPosition": "CENTRAL_DEFENDER",
-                "positionSide": "CENTRE_LEFT",
-                "fromPosition": "CENTRAL_DEFENDER",
-                "fromPositionSide": "CENTRE",
-                "exchangedPlayerId": null,
-                "substitutionType": null
-            },
-            {
-                "gameTime": {
-                    "gameTime": "74:23.8310",
-                    "gameTimeInSec": 11763.831
-                },
                 "playerId": 2498,
                 "toPosition": "BANK",
                 "positionSide": "UNKNOWN",
@@ -645,6 +619,7 @@
                 "formation": "5-2-1-2"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 4236
+    },
+    "stadiumId": 824
 }

@@ -1,7 +1,7 @@
 {
     "id": 123046,
     "dateTime": "2024-03-02T14:30:00Z",
-    "lastCalculationDate": "2025-07-24T00:36:32.808737Z",
+    "lastCalculationDate": "2026-11-21T13:04:18.264292Z",
     "iterationId": 743,
     "squadHome": {
         "id": 446,
@@ -341,7 +341,7 @@
                 "formation": "4-4-2 (diamond)"
             }
         ],
-        "coachId": null
+        "coachId": 3892
     },
     "squadAway": {
         "id": 29,
@@ -604,8 +604,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "87:32.7560",
-                    "gameTimeInSec": 12552.756
+                    "gameTime": "87:31.8110",
+                    "gameTimeInSec": 12551.811
                 },
                 "playerId": 30670,
                 "toPosition": "LEFT_WINGER",
@@ -622,18 +622,9 @@
                 "gameTime": "00:00.0000",
                 "gameTimeInSec": 0.0,
                 "formation": "4-2-3-1"
-            },
-            {
-                "gameTime": "87:31.8110",
-                "gameTimeInSec": 12551.811,
-                "formation": "UNKNOWN"
-            },
-            {
-                "gameTime": "87:32.7560",
-                "gameTimeInSec": 12552.756,
-                "formation": "4-2-3-1"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 5429
+    },
+    "stadiumId": 871
 }

@@ -1,7 +1,7 @@
 {
     "id": 123087,
     "dateTime": "2024-04-07T13:30:00Z",
-    "lastCalculationDate": "2025-07-24T00:29:24.123171Z",
+    "lastCalculationDate": "2026-11-21T13:02:00.661958Z",
     "iterationId": 743,
     "squadHome": {
         "id": 31,
@@ -310,7 +310,7 @@
                 "formation": "5-2-1-2"
             }
         ],
-        "coachId": null
+        "coachId": 4236
     },
     "squadAway": {
         "id": 39,
@@ -539,8 +539,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "74:32.2650",
-                    "gameTimeInSec": 11772.265
+                    "gameTime": "74:00.3310",
+                    "gameTimeInSec": 11740.331
                 },
                 "playerId": 15718,
                 "toPosition": "BANK",
@@ -552,8 +552,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "74:32.2650",
-                    "gameTimeInSec": 11772.265
+                    "gameTime": "74:00.3310",
+                    "gameTimeInSec": 11740.331
                 },
                 "playerId": 33537,
                 "toPosition": "BANK",
@@ -565,8 +565,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "74:32.2650",
-                    "gameTimeInSec": 11772.265
+                    "gameTime": "74:00.3310",
+                    "gameTimeInSec": 11740.331
                 },
                 "playerId": 41166,
                 "toPosition": "CENTRAL_MIDFIELD",
@@ -578,8 +578,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "74:32.2650",
-                    "gameTimeInSec": 11772.265
+                    "gameTime": "74:00.3310",
+                    "gameTimeInSec": 11740.331
                 },
                 "playerId": 53127,
                 "toPosition": "BANK",
@@ -591,8 +591,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "74:32.2650",
-                    "gameTimeInSec": 11772.265
+                    "gameTime": "74:00.3310",
+                    "gameTimeInSec": 11740.331
                 },
                 "playerId": 53763,
                 "toPosition": "ATTACKING_MIDFIELD",
@@ -604,8 +604,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "74:32.2650",
-                    "gameTimeInSec": 11772.265
+                    "gameTime": "74:00.3310",
+                    "gameTimeInSec": 11740.331
                 },
                 "playerId": 104743,
                 "toPosition": "CENTRAL_MIDFIELD",
@@ -629,6 +629,7 @@
                 "formation": "4-4-2 (diamond)"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 5662
+    },
+    "stadiumId": 869
 }

@@ -308,8 +308,8 @@
         "name": "Kosovo",
         "isoName": "Kosovo",
         "isoCode": "UNK",
-        "fifaName": null,
-        "fifaCode": null
+        "fifaName": "Kosovo",
+        "fifaCode": "KOS"
     },
     {
         "id": 387,
@@ -560,14 +560,6 @@
         "fifaCode": "PAR"
     },
     {
-        "id": 422,
-        "name": "Sansibar",
-        "isoName": "Tanzania",
-        "isoCode": "TZA",
-        "fifaName": "Tanzania",
-        "fifaCode": "TAN"
-    },
-    {
         "id": 423,
         "name": "Peru",
         "isoName": "Peru",
@@ -708,8 +700,8 @@
         "name": "Curacao",
         "isoName": "Cura\u00e7ao",
         "isoCode": "CUW",
-        "fifaName": null,
-        "fifaCode": null
+        "fifaName": "Cura\u00e7ao",
+        "fifaCode": "CUW"
     },
     {
         "id": 448,
@@ -732,8 +724,8 @@
         "name": "S\u00fcdsudan",
         "isoName": "South Sudan",
         "isoCode": "SSD",
-        "fifaName": null,
-        "fifaCode": null
+        "fifaName": "South Sudan",
+        "fifaCode": "SSD"
     },
     {
         "id": 452,
@@ -968,22 +960,6 @@
         "fifaCode": "SLE"
     },
     {
-        "id": 482,
-        "name": "Swasiland",
-        "isoName": "Eswatini",
-        "isoCode": "SWZ",
-        "fifaName": "Eswatini",
-        "fifaCode": "SWZ"
-    },
-    {
-        "id": 483,
-        "name": "Mazedonien",
-        "isoName": "North Macedonia",
-        "isoCode": "MKD",
-        "fifaName": "North Macedonia",
-        "fifaCode": "MKD"
-    },
-    {
         "id": 484,
         "name": "Singapur",
         "isoName": "Singapore",
@@ -1033,7 +1009,7 @@
     },
     {
         "id": 491,
-        "name": "Espa\u00f1a",
+        "name": "Spanien",
         "isoName": "Spain",
         "isoCode": "ESP",
         "fifaName": "Spain",
@@ -1162,10 +1138,10 @@
     {
         "id": 507,
         "name": "Chinese Taipei (Taiwan)",
-        "isoName": "China",
-        "isoCode": "CHN",
-        "fifaName": "China PR",
-        "fifaCode": "CHN"
+        "isoName": "Taiwan (Province of China)",
+        "isoCode": "TWN",
+        "fifaName": "Chinese Taipei",
+        "fifaCode": "TPE"
     },
     {
         "id": 508,

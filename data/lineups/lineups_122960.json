@@ -1,7 +1,7 @@
 {
     "id": 122960,
     "dateTime": "2023-12-08T19:30:00Z",
-    "lastCalculationDate": "2025-07-24T00:54:40.086217Z",
+    "lastCalculationDate": "2026-11-21T13:11:19.166571Z",
     "iterationId": 743,
     "squadHome": {
         "id": 31,
@@ -297,7 +297,7 @@
                 "formation": "5-3-2"
             }
         ],
-        "coachId": null
+        "coachId": 4236
     },
     "squadAway": {
         "id": 416,
@@ -589,9 +589,22 @@
                     "gameTime": "84:31.0400",
                     "gameTimeInSec": 12371.04
                 },
-                "playerId": 13136,
+                "playerId": 6636,
                 "toPosition": "CENTRAL_DEFENDER",
                 "positionSide": "CENTRE",
+                "fromPosition": "CENTRAL_DEFENDER",
+                "fromPositionSide": "CENTRE_LEFT",
+                "exchangedPlayerId": null,
+                "substitutionType": null
+            },
+            {
+                "gameTime": {
+                    "gameTime": "84:31.0400",
+                    "gameTimeInSec": 12371.04
+                },
+                "playerId": 13136,
+                "toPosition": "CENTRAL_DEFENDER",
+                "positionSide": "CENTRE_LEFT",
                 "fromPosition": "CENTRAL_DEFENDER",
                 "fromPositionSide": "CENTRE_RIGHT",
                 "exchangedPlayerId": null,
@@ -650,6 +663,7 @@
                 "formation": "5-4-1 (flat)"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 650
+    },
+    "stadiumId": 869
 }

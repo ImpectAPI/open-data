@@ -1,7 +1,7 @@
 {
     "id": 123005,
     "dateTime": "2024-01-27T14:30:00Z",
-    "lastCalculationDate": "2025-08-07T00:27:13.299274Z",
+    "lastCalculationDate": "2026-11-21T13:06:24.766124Z",
     "iterationId": 743,
     "squadHome": {
         "id": 30,
@@ -267,7 +267,7 @@
                 "formation": "4-2-3-1"
             }
         ],
-        "coachId": null
+        "coachId": 719
     },
     "squadAway": {
         "id": 27,
@@ -481,24 +481,24 @@
                     "gameTime": "75:37.0800",
                     "gameTimeInSec": 11837.08
                 },
-                "playerId": 106529,
-                "toPosition": "RIGHT_WINGER",
-                "positionSide": "RIGHT",
-                "fromPosition": "BANK",
-                "fromPositionSide": "UNKNOWN",
-                "exchangedPlayerId": null,
-                "substitutionType": null
-            },
-            {
-                "gameTime": {
-                    "gameTime": "75:37.4290",
-                    "gameTimeInSec": 11837.429
-                },
                 "playerId": 31977,
                 "toPosition": "LEFT_WINGER",
                 "positionSide": "LEFT",
                 "fromPosition": "RIGHT_WINGER",
                 "fromPositionSide": "RIGHT",
+                "exchangedPlayerId": null,
+                "substitutionType": null
+            },
+            {
+                "gameTime": {
+                    "gameTime": "75:37.0800",
+                    "gameTimeInSec": 11837.08
+                },
+                "playerId": 106529,
+                "toPosition": "RIGHT_WINGER",
+                "positionSide": "RIGHT",
+                "fromPosition": "BANK",
+                "fromPositionSide": "UNKNOWN",
                 "exchangedPlayerId": null,
                 "substitutionType": null
             },
@@ -574,18 +574,9 @@
                 "gameTime": "00:00.0000",
                 "gameTimeInSec": 0.0,
                 "formation": "4-2-3-1"
-            },
-            {
-                "gameTime": "75:37.0800",
-                "gameTimeInSec": 11837.08,
-                "formation": "UNKNOWN"
-            },
-            {
-                "gameTime": "75:37.4290",
-                "gameTimeInSec": 11837.429,
-                "formation": "4-2-3-1"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 5669
+    },
+    "stadiumId": 868
 }

@@ -1,7 +1,7 @@
 {
     "id": 122907,
     "dateTime": "2023-10-21T16:30:00Z",
-    "lastCalculationDate": "2025-07-24T01:07:35.757998Z",
+    "lastCalculationDate": "2026-11-21T13:15:11.613368Z",
     "iterationId": 743,
     "squadHome": {
         "id": 42,
@@ -349,7 +349,7 @@
                 "formation": "5-2-2-1"
             }
         ],
-        "coachId": null
+        "coachId": 6408
     },
     "squadAway": {
         "id": 33,
@@ -526,8 +526,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "76:06.4230",
-                    "gameTimeInSec": 11866.423
+                    "gameTime": "75:26.4490",
+                    "gameTimeInSec": 11826.449
                 },
                 "playerId": 204,
                 "toPosition": "BANK",
@@ -539,8 +539,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "76:06.4230",
-                    "gameTimeInSec": 11866.423
+                    "gameTime": "75:26.4490",
+                    "gameTimeInSec": 11826.449
                 },
                 "playerId": 929,
                 "toPosition": "ATTACKING_MIDFIELD",
@@ -552,8 +552,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "76:06.4230",
-                    "gameTimeInSec": 11866.423
+                    "gameTime": "75:26.4490",
+                    "gameTimeInSec": 11826.449
                 },
                 "playerId": 53703,
                 "toPosition": "BANK",
@@ -565,8 +565,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "76:06.4230",
-                    "gameTimeInSec": 11866.423
+                    "gameTime": "75:26.4490",
+                    "gameTimeInSec": 11826.449
                 },
                 "playerId": 66678,
                 "toPosition": "LEFT_WINGER",
@@ -611,6 +611,7 @@
                 "formation": "4-2-3-1"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 253
+    },
+    "stadiumId": 877
 }

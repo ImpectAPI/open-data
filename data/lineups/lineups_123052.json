@@ -1,7 +1,7 @@
 {
     "id": 123052,
     "dateTime": "2024-03-02T14:30:00Z",
-    "lastCalculationDate": "2025-08-14T22:38:43.536183Z",
+    "lastCalculationDate": "2026-11-21T13:04:01.769096Z",
     "iterationId": 743,
     "squadHome": {
         "id": 36,
@@ -111,7 +111,7 @@
             {
                 "playerId": 9820,
                 "position": "CENTER_FORWARD",
-                "positionSide": "CENTRE_RIGHT"
+                "positionSide": "CENTRE_LEFT"
             },
             {
                 "playerId": 10528,
@@ -126,7 +126,7 @@
             {
                 "playerId": 15580,
                 "position": "CENTER_FORWARD",
-                "positionSide": "CENTRE_LEFT"
+                "positionSide": "CENTRE_RIGHT"
             },
             {
                 "playerId": 49828,
@@ -167,7 +167,7 @@
                 "toPosition": "RIGHT_WINGBACK_DEFENDER",
                 "positionSide": "RIGHT",
                 "fromPosition": "CENTER_FORWARD",
-                "fromPositionSide": "CENTRE_RIGHT",
+                "fromPositionSide": "CENTRE_LEFT",
                 "exchangedPlayerId": null,
                 "substitutionType": null
             },
@@ -206,7 +206,7 @@
                 "toPosition": "CENTER_FORWARD",
                 "positionSide": "CENTRE",
                 "fromPosition": "CENTER_FORWARD",
-                "fromPositionSide": "CENTRE_LEFT",
+                "fromPositionSide": "CENTRE_RIGHT",
                 "exchangedPlayerId": null,
                 "substitutionType": null
             },
@@ -333,7 +333,7 @@
                 "formation": "4-4-2 (flat)"
             }
         ],
-        "coachId": null
+        "coachId": 5661
     },
     "squadAway": {
         "id": 39,
@@ -629,6 +629,7 @@
                 "formation": "4-4-2 (diamond)"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 5662
+    },
+    "stadiumId": 875
 }

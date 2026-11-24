@@ -1,7 +1,7 @@
 {
     "id": 123112,
     "dateTime": "2024-04-28T15:30:00Z",
-    "lastCalculationDate": "2025-07-24T00:24:47.320983Z",
+    "lastCalculationDate": "2026-11-21T13:01:18.618695Z",
     "iterationId": 743,
     "squadHome": {
         "id": 42,
@@ -101,7 +101,7 @@
             {
                 "playerId": 1286,
                 "position": "DEFENSE_MIDFIELD",
-                "positionSide": "CENTRE_LEFT"
+                "positionSide": "CENTRE_RIGHT"
             },
             {
                 "playerId": 1376,
@@ -121,7 +121,7 @@
             {
                 "playerId": 29174,
                 "position": "DEFENSE_MIDFIELD",
-                "positionSide": "CENTRE_RIGHT"
+                "positionSide": "CENTRE_LEFT"
             },
             {
                 "playerId": 29367,
@@ -341,7 +341,7 @@
                 "formation": "UNKNOWN"
             }
         ],
-        "coachId": null
+        "coachId": 671
     },
     "squadAway": {
         "id": 27,
@@ -650,6 +650,7 @@
                 "formation": "4-2-3-1"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 5669
+    },
+    "stadiumId": 877
 }

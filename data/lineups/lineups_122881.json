@@ -1,7 +1,7 @@
 {
     "id": 122881,
     "dateTime": "2023-09-24T13:30:00Z",
-    "lastCalculationDate": "2025-07-24T01:15:32.606918Z",
+    "lastCalculationDate": "2026-11-21T13:17:46.263604Z",
     "iterationId": 743,
     "squadHome": {
         "id": 41,
@@ -297,7 +297,7 @@
                 "formation": "5-2-2-1"
             }
         ],
-        "coachId": null
+        "coachId": 799
     },
     "squadAway": {
         "id": 432,
@@ -650,6 +650,7 @@
                 "formation": "4-3-3"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 2550
+    },
+    "stadiumId": 867
 }

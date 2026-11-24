@@ -20,6 +20,37 @@ This repository provides open-access football event data from **Impect**, a lead
   - Iteration List
   - KPI Definitions
 
+## Data Versions
+
+| Version | Where | Notes |
+|---------|-------|-------|
+| **v2.0** | [`v2`](https://github.com/ImpectAPI/open-data/tree/v2) branch, tag [`v2.0`](https://github.com/ImpectAPI/open-data/releases/tag/v2.0) | All matches recalculated, new event IDs, additional fields. |
+| **v1.0** | `main` branch, tag [`v1.0`](https://github.com/ImpectAPI/open-data/releases/tag/v1.0) | Initial release. |
+
+v2.0 will become the default on `main` once a kloppy release supports it. See [`CHANGELOG.md`](CHANGELOG.md) for all changes, including breaking ones.
+
+To work with v2.0 now, clone the `v2` branch:
+
+```sh
+git clone --branch v2 https://github.com/ImpectAPI/open-data.git
+```
+
+With kloppy, load v2.0 with `impect.load()` from the `v2` branch, since `impect.load_open_data()` reads from `main`. This requires a kloppy version that includes [PySport/kloppy#666](https://github.com/PySport/kloppy/pull/666):
+
+```python
+from kloppy import impect
+
+base_url = "https://raw.githubusercontent.com/ImpectAPI/open-data/v2/data"
+match_id = 122840
+
+events = impect.load(
+    event_data=f"{base_url}/events/events_{match_id}.json",
+    lineup_data=f"{base_url}/lineups/lineups_{match_id}.json",
+    squads_data=f"{base_url}/squads/squads_743.json",
+    players_data=f"{base_url}/players/players_743.json",
+)
+```
+
 ## How to Use the Data
 
 1. **Clone the Repository**

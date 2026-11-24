@@ -1,7 +1,7 @@
 {
     "id": 123016,
     "dateTime": "2024-02-03T14:30:00Z",
-    "lastCalculationDate": "2025-07-24T00:44:21.354332Z",
+    "lastCalculationDate": "2026-11-21T13:06:03.714915Z",
     "iterationId": 743,
     "squadHome": {
         "id": 416,
@@ -271,7 +271,7 @@
                 "formation": "4-2-3-1"
             }
         ],
-        "coachId": null
+        "coachId": 650
     },
     "squadAway": {
         "id": 39,
@@ -456,8 +456,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "67:41.7700",
-                    "gameTimeInSec": 11361.77
+                    "gameTime": "67:08.7480",
+                    "gameTimeInSec": 11328.748
                 },
                 "playerId": 8367,
                 "toPosition": "BANK",
@@ -469,8 +469,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "67:41.7700",
-                    "gameTimeInSec": 11361.77
+                    "gameTime": "67:08.7480",
+                    "gameTimeInSec": 11328.748
                 },
                 "playerId": 10126,
                 "toPosition": "CENTRAL_MIDFIELD",
@@ -482,8 +482,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "67:41.7700",
-                    "gameTimeInSec": 11361.77
+                    "gameTime": "67:08.7480",
+                    "gameTimeInSec": 11328.748
                 },
                 "playerId": 21335,
                 "toPosition": "BANK",
@@ -495,8 +495,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "67:41.7700",
-                    "gameTimeInSec": 11361.77
+                    "gameTime": "67:08.7480",
+                    "gameTimeInSec": 11328.748
                 },
                 "playerId": 53127,
                 "toPosition": "CENTRAL_MIDFIELD",
@@ -580,6 +580,7 @@
                 "formation": "4-4-2 (diamond)"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 5662
+    },
+    "stadiumId": 873
 }

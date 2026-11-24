@@ -7,10 +7,11 @@
             "id": 2,
             "type": "League",
             "countryId": 466,
-            "gender": "MALE"
+            "gender": "MALE",
+            "ageGroup": "ADULT"
         },
         "dataVersion": "V3",
-        "lastChangeTimestamp": "2025-10-06T08:38:54.475988Z",
+        "lastChangeTimestamp": "2026-11-24T09:29:25.691360Z",
         "idMappings": [
             {
                 "heim_spiel": [

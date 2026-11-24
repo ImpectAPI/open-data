@@ -4,11 +4,12 @@
         "name": "BYPASSED_OPPONENTS",
         "details": {
             "label": "Bypassed Opponents",
-            "definition": "Sum of bypassed opponents. An opponent is bypassed if, after a pass or dribbling, they are further away from their goal than the ball and is therefore no longer able to defend the goal.",
+            "definition": "Sum of bypassed opponents. An opponent is bypassed if, after a pass or dribbling, they are further away from their goal than the ball and are therefore no longer able to defend the goal.",
             "meaning": "Ball Progression, offensive game-play, verticality. The line breaking pass of a centre-back through two opposing strikers to the free midfielder bypasses 2 opponents."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 1,
@@ -19,7 +20,8 @@
             "meaning": "Number of successful offensive actions by a player."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 2,
@@ -27,21 +29,23 @@
         "details": {
             "label": "Bypassed Defenders",
             "definition": "Sum of the bypassed defenders. A defender is one of the last 5 outfield players in each given scenario, closest to their own goal. They are bypassed if after a pass or dribbling, they are further away from their goal than the ball and therefore no longer able to defend the goal.",
-            "meaning": "Initiating dangerous attacks with the ball, play in advanced areas, penetrating the opposition defence. A deadly pass from a midfield to a the striker, who is then free in front of the goal, bypasses all 5 defenders."
+            "meaning": "Initiating dangerous attacks with the ball, play in advanced areas, penetrating the opposition defence. A deadly pass from a midfield to the striker, who is then free in front of the goal, bypasses all 5 defenders."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 3,
         "name": "BYPASSED_OPPONENTS_WO_VERIFICATION",
         "details": {
             "label": "Bypassed Opponents Without Verification",
-            "definition": "Bypassed opponents without the pass being \u2018verified' by the pass receiver. If a player is passed to in a high pressure situation, the bypassed opponents from this pass are not fully counted until the point that the ball is completely under control. As the value here does not include verification by the receiver (by holding up the ball or passing it on) this aims to make the valuing of the passer's pass as independent as possible from the following action.",
+            "definition": "Bypassed opponents without the pass being \u2018verified\u2019 by the pass receiver. If a player is passed to in a high pressure situation, the bypassed opponents from this pass are not fully counted until the point that the ball is completely under control. As the value here does not include verification by the receiver (by holding up the ball or passing it on) this aims to make the valuing of the passer's pass as independent as possible from the following action.",
             "meaning": "Bypassed opponents purely from the point of view of the passer without considering the follow-up action of their teammate. In this way, the performance of the passer can be considered independently of the performance of the pass receiver - e.g. regardless of whether the teammate is able to hold the ball up or lay off the ball."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 4,
@@ -52,7 +56,8 @@
             "meaning": "Bypassed defenders purely from the point of view of the passer without considering the follow-up action of their teammate. In this way, the performance of the passer can be considered independently of the performance of the pass receiver - e.g. regardless of whether the teammate is able to hold the ball up or lay off the ball."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 6,
@@ -62,7 +67,7 @@
             "id": 0,
             "label": "Bypassed Opponents",
             "name": "BYPASSED_OPPONENTS",
-            "definition": "Sum of bypassed opponents. An opponent is bypassed if, after a pass or dribbling, they are further away from their goal than the ball and is therefore no longer able to defend the goal.",
+            "definition": "Sum of bypassed opponents. An opponent is bypassed if, after a pass or dribbling, they are further away from their goal than the ball and are therefore no longer able to defend the goal.",
             "meaning": "Ball Progression, offensive game-play, verticality. The line breaking pass of a centre-back through two opposing strikers to the free midfielder bypasses 2 opponents."
         },
         "context": {
@@ -70,7 +75,8 @@
             "name": "SECOND_BALL",
             "definition": "No real action, but a pattern of events: A pass to an opponent's player who has high pressure and immediately loses the ball to a teammate.",
             "meaning": "Second ball play. Can be combined with the KPI 'bypassed opponents'"
-        }
+        },
+        "inverted": false
     },
     {
         "id": 7,
@@ -81,18 +87,20 @@
             "meaning": "Good spatial awareness, showing for the ball in between the lines, creating one-twos, good movement without the ball, long balls. Every action with bypassed opponents from the point of view of the pass receiver."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 8,
         "name": "BYPASSED_OPPONENTS_RECEIVING_NUMBER",
         "details": {
-            "label": "Bypassed Opponents Receiving Number ",
+            "label": "Bypassed Opponents Receiving Number",
             "definition": "Number of actions with which opponents are bypassed, from the perspective of the receiver (dribble, pass, cross, set-piece).",
             "meaning": "Number of actions in which a player is found as a receiver."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 9,
@@ -103,7 +111,8 @@
             "meaning": "Deep runs, showing up within or behind the opposition defence, creating a goalscoring opportunity through running & movement, getting into dangerous areas. A deadly pass from the point of view of the pass receiver, who made the pass possible by an intelligent run."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 10,
@@ -111,10 +120,11 @@
         "details": {
             "label": "Bypassed Opponents Receiving Due To Verification",
             "definition": "Bypassed opponents as a receiver, but purely the proportion of the pass receiver's verification.",
-            "meaning": "If a player is played the ball under high pressure, the bypassed opponents are not fully counted as a contact until the ball is completely under control. This value here refers exclusively to the verification of bypassed opponents by the pass receiver (by holding it up or laying it off). This way, the performance of the pass receiver is appreciated, E.g. the ability to hold up balls under pressure. The bypassed opponents are then fully valued, so that they verifies the pass of his teammate."
+            "meaning": "If a player is played the ball under high pressure, the bypassed opponents are not fully counted as a contact until the ball is completely under control. This value here refers exclusively to the verification of bypassed opponents by the pass receiver (by holding it up or laying it off). This way, the performance of the pass receiver is appreciated, e.g. the ability to hold up balls under pressure. The bypassed opponents are then fully valued, so that he verifies the pass of his teammate."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 15,
@@ -125,7 +135,8 @@
             "meaning": "Sideways passes, neutral passes, passive play, 'tiki-taka'."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": true
     },
     {
         "id": 16,
@@ -133,10 +144,11 @@
         "details": {
             "label": "Reverse Play Added Opponents",
             "definition": "Sum of opponents who had been previously bypassed and whom the player has brought back into play by the time he completes a pass. Example: If an attacking midfielder receives the ball & dribbles towards the opponent's four-man defence, but then plays a pass to his own centre-back, he brings the 6 previously bypassed opponents back into play.",
-            "meaning": "Overplaying, taking too many touches, stifling attacks, frequently passing the ball backwards. If a midfielder plays the the ball back to the centre-backs, the opposing players are brought back into the game, who were already bypassed."
+            "meaning": "Overplaying, taking too many touches, stifling attacks, frequently passing the ball backwards. If a midfielder plays the ball back to the centre-backs, the opposing players are brought back into the game, who were already bypassed."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": true
     },
     {
         "id": 17,
@@ -147,18 +159,20 @@
             "meaning": "Number of actions in which opponents are brought back into the game through back passes or the opponent has managed to get back between the ball and the goal."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": true
     },
     {
         "id": 20,
         "name": "BALL_LOSS_ADDED_OPPONENTS",
         "details": {
             "label": "Ball Loss Added Opponents",
-            "definition": "Sum of opponents who had been previously bypassed but a player has added back into the game by losing the ball. Example: If an attacking midfielder dribbles towards an opponent's four man defence and then loses the ball and then loses the ball, he will bring the 6 other opponents that had previously been bypassed back into the game.",
-            "meaning": "The number of offensive ball losses, \u2018burning' of chances, ball losses in promising attacking situations. The ball security of attackers."
+            "definition": "Sum of opponents who had been previously bypassed but a player has added back into the game by losing the ball. Example: If an attacking midfielder dribbles towards an opponent's four man defence and then loses the ball, he will bring the 6 other opponents that had previously been bypassed back into the game.",
+            "meaning": "The number of offensive ball losses, \u2018burning\u2019 of chances, ball losses in promising attacking situations. The ball security of attackers."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": true
     },
     {
         "id": 21,
@@ -169,18 +183,8 @@
             "meaning": "Losing the ball in dangerous & vulnerable areas, turnovers in the build-up stage, enabling the opponent to counterattack."
         },
         "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 22,
-        "name": "BALL_LOSS_NUMBER",
-        "details": {
-            "label": "Ball Loss Number",
-            "definition": "The number of ball losses due to passes, set-pieces or dribbles.",
-            "meaning": "The number of ball losses."
-        },
-        "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": true
     },
     {
         "id": 23,
@@ -188,10 +192,11 @@
         "details": {
             "label": "Ball Win Added Teammates",
             "definition": "Sum of teammates who had been previously bypassed by the opposition but are brought back into the game by a defensive action. If an opposition attacker attempts to make a pass from in between the lines but a defender intercepts this pass, he has added the 6 teammates who had been initially bypassed back into the game.",
-            "meaning": "Winning important balls backs in defensive areas, clearances & thwarting opposition attacks."
+            "meaning": "Winning important balls back in defensive areas, clearances & thwarting opposition attacks."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 24,
@@ -202,7 +207,8 @@
             "meaning": "Offensively interesting ball wins, effectiveness of a regain of possession in relation to the opposition, creating counter attacking / transition opportunities."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 25,
@@ -213,7 +219,8 @@
             "meaning": "Offensively very interesting ball wins, effectiveness of a regain of possession in relation to the opposition defence, creating counter attacking/ transition opportunities."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 27,
@@ -224,7 +231,8 @@
             "meaning": "Number of offensive wins of possession."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 28,
@@ -235,7 +243,8 @@
             "meaning": "Goal"
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 29,
@@ -246,7 +255,8 @@
             "meaning": "Ball Progression, passes between the lines, breaking the lines."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 33,
@@ -257,29 +267,32 @@
             "meaning": "The number of offensive ball losses, 'burning' of chances, ball losses in promising attacking situations. The ball security of attackers."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": true
     },
     {
         "id": 36,
         "name": "BALL_WIN_ADDED_TEAMMATES_DEFENDERS",
         "details": {
             "label": "Ball Win Added Teammates Defenders",
-            "definition": "This is similar to the KPI \u201cAdded Teammates\", but exclusively relates to the teammate defenders (deepest 5 players from own team) who can still defend their goal. If an opposing striker runs freely towards goal, & a defender wins the ball and brings all 5 previously bypassed defenders back into the game (and 10 teammates in total).",
+            "definition": "This is similar to the KPI \u201cAdded Teammates\u201d, but exclusively relates to the teammate defenders (deepest 5 players from own team) who can still defend their goal. If an opposing striker runs freely towards goal and a defender wins the ball, that defender brings all 5 previously bypassed defenders back into the game (and 10 teammates in total).",
             "meaning": "Last ditch defending, clearing up dangerous situations, holding the last line of defence, defending in your own box."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 37,
         "name": "REVERSE_PLAY_ADDED_OPPONENTS_DEFENDERS",
         "details": {
             "label": "Reverse Play Added Opponents Defenders",
-            "definition": "Sum of defenders who had been previously bypassed and whom the player has brought back into play by by the time he completes a pass. Defenders = last 5 field players in the given match scenario.",
-            "meaning": "Overplaying, taking too many touches, stifling attacks, frequently passing the ball backwards. If a Striker plays the the ball back to the midfield, the opposing defenders are brought back into the game, who were already bypassed."
+            "definition": "Sum of defenders who had been previously bypassed and whom the player has brought back into play by the time he completes a pass. Defenders = last 5 field players in the given match scenario.",
+            "meaning": "Overplaying, taking too many touches, stifling attacks, frequently passing the ball backwards. If a Striker plays the ball back to the midfield, the opposing defenders are brought back into the game, who were already bypassed."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": true
     },
     {
         "id": 38,
@@ -290,7 +303,8 @@
             "meaning": "Own goals. Caution: If you create match results based on the KPI 'Goals', please do not forget to add the opponent own goals. The goals in the endpoint GetMatchInfo are already calculated with own goals by the opponent and should therefore reflect the correct end result."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": true
     },
     {
         "id": 47,
@@ -301,7 +315,8 @@
             "meaning": "Number of sendings off due to Red Cards."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": true
     },
     {
         "id": 49,
@@ -312,7 +327,8 @@
             "meaning": "Serious ball losses in the build-up phase of the game."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": true
     },
     {
         "id": 69,
@@ -323,20 +339,27 @@
             "meaning": "High risk of ball losses that can result in goals conceded, turnovers in the build-up phase, enabling the opponent to counterattack."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": true
     },
     {
         "id": 74,
         "name": "BYPASSED_DEFENDERS_BY_ACTION_SECOND_BALL",
         "details": null,
         "parentKpi": {
-            "id": 0,
-            "label": "Bypassed Opponents",
-            "name": "BYPASSED_OPPONENTS",
-            "definition": "Sum of bypassed opponents. An opponent is bypassed if, after a pass or dribbling, they are further away from their goal than the ball and is therefore no longer able to defend the goal.",
-            "meaning": "Ball Progression, offensive game-play, verticality. The line breaking pass of a centre-back through two opposing strikers to the free midfielder bypasses 2 opponents."
+            "id": 2,
+            "label": "Bypassed Defenders",
+            "name": "BYPASSED_DEFENDERS",
+            "definition": "Sum of the bypassed defenders. A defender is one of the last 5 outfield players in each given scenario, closest to their own goal. They are bypassed if after a pass or dribbling, they are further away from their goal than the ball and therefore no longer able to defend the goal.",
+            "meaning": "Initiating dangerous attacks with the ball, play in advanced areas, penetrating the opposition defence. A deadly pass from a midfield to the striker, who is then free in front of the goal, bypasses all 5 defenders."
         },
-        "context": null
+        "context": {
+            "label": "Second Ball",
+            "name": "SECOND_BALL",
+            "definition": "No real action, but a pattern of events: A pass to an opponent's player who has high pressure and immediately loses the ball to a teammate.",
+            "meaning": "Second ball play. Can be combined with the KPI 'bypassed opponents'"
+        },
+        "inverted": false
     },
     {
         "id": 77,
@@ -347,7 +370,8 @@
             "meaning": "Creating goals, playing the final pass."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 82,
@@ -358,29 +382,32 @@
             "meaning": "Shot-based xG tell how high the scoring probability of a goal shot is, taking into account many parameters. At player and team level, the shot-based xG indicate how many goals would have been statistically expected for the player or team on the basis of the goals scored. The comparison with the goals actually scored allows a statement to be made about the finishing efficiency. The same statement can be made about the defence by comparing the opponent's xG with the goals conceded."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 83,
         "name": "PACKING_XG",
         "details": {
             "label": "Packing non-shot-based xG",
-            "definition": "Packing xG (pxG) include not only include shots on goal but also all potential shooting positions, even if no shot on goal is taken. In contrast to the shot-based xG, the packing xG goes one step further by attributing a value to these positions & does not rely on a shot being taken. A team is therefore also credited for getting into areas despite not getting shots off. E.g. if a player decides to dribble and loses the ball or attempts a pass that does not reach a teammate, this will still be attributed a pxG value. In order to put a value on the probability of a goal from the position, parameters such as distance to the goal, angle to the goal, pressure on the player, opponent between the ball and the goal, body part when the ball is released from and the respective phase of the game are taken into account. Thus, packing xG are a form of non-shot xG that takes into account the number of opponents between the ball and the goal.",
+            "definition": "Packing xG (pxG) not only include shots on goal but also all potential shooting positions, even if no shot on goal is taken. In contrast to the shot-based xG, the packing xG goes one step further by attributing a value to these positions & does not rely on a shot being taken. A team is therefore also credited for getting into areas despite not getting shots off. E.g. if a player decides to dribble and loses the ball or attempts a pass that does not reach a teammate, this will still be attributed a pxG value. In order to put a value on the probability of a goal from the position, parameters such as distance to the goal, angle to the goal, pressure on the player, opponent between the ball and the goal, body part when the ball is released from and the respective phase of the game are taken into account. Thus, packing xG are a form of non-shot xG that takes into account the number of opponents between the ball and the goal.<br/><br/>Packing non-shot-based xG is only assigned to positions within 35 metres of goal. Positions further from goal receive no value.",
             "meaning": "Packing xG tell us how high the goal probability of a certain potential goal-scoring position is, taking into account various parameters. It is not important whether a shot is actually attempted. At player and team level, the packing xG tell us how many goals would have been statistically expected based on historical records of the goals scored in the given scoring situations. The comparison of the pxG and the goals actually scored allows a comparison to be made about the efficiency and luck of a team/player, based on if they are over or under performing this value."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 90,
         "name": "SUCCESSFUL_PASSES",
         "details": {
             "label": "Successful Passes",
-            "definition": "A successful pass is any pass that reaches a teammate. In addition, the teammate must have be able to control the ball or the pressure on the teammate must not be too high. E.g. if a striker is given an aerial duel to compete for, this would be counted as a 'neutral ball'.",
+            "definition": "A successful pass is any pass that reaches a teammate. In addition, the teammate must be able to control the ball or the pressure on the teammate must not be too high. E.g. if a striker is given an aerial duel to compete for, this would be counted as a 'neutral ball'.",
             "meaning": "Pass that reaches the teammate."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 91,
@@ -391,7 +418,8 @@
             "meaning": "Pass that goes to the opponent or out of play."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": true
     },
     {
         "id": 92,
@@ -402,7 +430,8 @@
             "meaning": "Ball contacts in offensive play (when own team has been in possession)."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 93,
@@ -413,7 +442,8 @@
             "meaning": "Ball contacts in defensive play (when opposition team has been in possession)."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 94,
@@ -424,7 +454,8 @@
             "meaning": "Won ground duel."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 95,
@@ -435,7 +466,8 @@
             "meaning": "Lost ground duel."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": true
     },
     {
         "id": 96,
@@ -446,7 +478,8 @@
             "meaning": "Won aerial duel."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 97,
@@ -457,7 +490,8 @@
             "meaning": "Lost aerial duel."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": true
     },
     {
         "id": 100,
@@ -468,18 +502,20 @@
             "meaning": "Number of shots."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 101,
         "name": "SHOT_AT_GOAL_OFF_TARGET_NUMBER",
         "details": {
             "label": "Total Shots Off Target",
-            "definition": "A shot off target is considered to be any ball playing action where the player's intention is to score a goal and the ball ends up out of bounds.",
+            "definition": "A shot off target is considered to be any ball playing action where the player's intention is to score a goal and the ball ends up out of play.",
             "meaning": "Number of shots Off Target."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 1399,
@@ -490,7 +526,8 @@
             "meaning": "The pure number of bypassed opponents."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 1400,
@@ -501,502 +538,20 @@
             "meaning": "The pure number of bypassed defenders."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 1401,
         "name": "POSTSHOT_XG",
         "details": {
             "label": "Post-Shot xG",
-            "definition": "Post-shot xG is a value of all shots on target (all shots on goal that go in or are saved by the goalkeeper). In addition to the shot-based xG variables (shot distance, shot angle, pressure on the shooter, opponents between ball and goal, phase of play, and type of shot), the \"likely finishing position\" of the ball as it crosses the goal line is also used to create the post-shot xG value. All shots that are blocked, hit the post, crossbar or go out of bounds are not taken into account and are given a value of 0.",
+            "definition": "Post-shot xG is a value of all shots on target (all shots on goal that go in or are saved by the goalkeeper). In addition to the shot-based xG variables (shot distance, shot angle, pressure on the shooter, opponents between ball and goal, phase of play, and type of shot), the \"likely finishing position\" of the ball as it crosses the goal line is also used to create the post-shot xG value. All shots that are blocked, hit the post, crossbar or go out of play are not taken into account and are given a value of 0.",
             "meaning": "Post-shot xG tells us how high the goal probability of a shot is, taking into account all pre-shot variables and the placement of the shot. A comparison of post-shot xG and shot-based xG can allow you to make a judgement about the finishing efficiency of a striker. A comparison of (conceded) post-shot xG and (conceded) goals can allow you to make a judgement about the goalkeepers shot stopping performance. While shot-based xG provides information about the quality of chances, post-shot xG provides more information about the quality of the shot."
         },
         "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1404,
-        "name": "PXT_PASS",
-        "details": {
-            "label": "Passes",
-            "definition": "The change in a team\u2019s goal threat through passes. This includes all progressive passes (increasing the goal threat), regressive passes (passes that reach the teammate but reduce the goal threat) and missed passes (passes intercepted by the opponent, that go out of play or end up offside). These 3 types of passes can also be viewed separately via the KPIs PXT_PASS_PRO, PXT_PASS_REG and PXT_PASS_FAIL.",
-            "meaning": "Changing your goal threat through passing."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1405,
-        "name": "PXT_DRIBBLE",
-        "details": {
-            "label": "Dribbles",
-            "definition": "The change in a team\u2019s goal threat with dribbling. This includes all progressive dribbles (increasing the goal threat), regressive dribbles (dribbles without losing the ball but still reduce the goal threat) and unsuccessful dribbles (dribbles that end up with the ball being lost to the opponent or go out of play or when the dribbling player commits a foul themselves). These 3 types of dribbles can also be viewed separately via the KPIs PXT_DRIBBLE_PRO, PXT_DRIBBLE_REG and PXT_DRIBBLE_FAIL.",
-            "meaning": "Changing your goal threat through dribbling."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1406,
-        "name": "PXT_SETPIECE",
-        "details": {
-            "label": "Set pieces",
-            "definition": "The change in a team\u2019s goal threat through set-pieces (free kick, corner, throw-in, goal kick, kick-off). This includes all progressive set-pieces (increasing the goal threat), regressive set-pieces (passes that reach a teammate but reduce goal threat) and set-pieces that end up with possession lost to the opponent or offside. These 3 types of set-pieces can also be viewed separately via the KPIs PXT_SETPIECE_PRO, PXT_SETPIECE_REG and PXT_SETPIECE_FAIL.",
-            "meaning": "Changing your goal threat through set-pieces."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1407,
-        "name": "PXT_BLOCK",
-        "details": {
-            "label": "Blocks",
-            "definition": "The change in a team\u2019s goal threat due to blocked passes, shots and set-pieces. The change is calculated from the difference between the goal threat after the block and the goal threat before the block.",
-            "meaning": "Changing your goal threat through blocked passes, shots and set-pieces."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1408,
-        "name": "PXT_SHOT",
-        "details": {
-            "label": "Shots",
-            "definition": "The change in a team\u2019s goal threat through shots. A distinction is made whether the shot was on target or not. The reason for this is that the pxT model is based on post-shot xG: If the shot is on target, PXT_SHOT is calculated by the difference between post-shot xG and the goal threat immediately before the shot. If the shot is not on target (if it is blocked or does not hit the target), PXT_SHOT is calculated by the difference between the goal threat after the shot and the goal threat before the shot.",
-            "meaning": "Changing your goal threat through shots."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1409,
-        "name": "PXT_BALL_WIN",
-        "details": {
-            "label": "Ball wins",
-            "definition": "The change in a team\u2019s goal threat through ball wins from open play. Calculated from the difference between a team\u2019s goal threat after ball win and the threat of the team before the ball win.",
-            "meaning": "Changing your goal threat through ball wins."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1410,
-        "name": "PXT_FOUL",
-        "details": {
-            "label": "Fouls",
-            "definition": "The change in a team\u2019s goal threat due to committing fouls. The change is calculated by taking the difference between a team\u2019s goal threat before a foul is committed and the subsequent goal threat at the opponent's free kick.",
-            "meaning": "Changing your goal threat from fouls."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1411,
-        "name": "PXT_NO_VIDEO",
-        "details": {
-            "label": "No Video",
-            "definition": "The change in a team\u2019s goal threat that you don\u00b4t see due to missing video. In addition, changes that cannot be directly assigned to one of your own players or to the generic team count. This includes, for example, the increase in goal threat that comes from having a kick-off. It also includes changes due to referee induced stoppages.",
-            "meaning": "Changing your goal threat when video footage is missing."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1412,
-        "name": "PXT_REC",
-        "details": {
-            "label": null,
-            "definition": "The increase in a team\u2019s goal threat by receiving the ball (only positive changes). PXT_REC is not a direct part of the pxT model, because in the pxT model the passer or the set-piece taking player gets the credit for the successful pass/set-piece. We created this KPI anyway so that you can split the increase in goal threat between passer/pass receiver depending on your preference. PXT_REC is therefore the counterpart to PXT_PASS_PRO and PXT_SETPIECE_PRO.",
-            "meaning": "Increasing your goal threat through receiving."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1413,
-        "name": "OPP_PXT_PASS",
-        "details": {
-            "label": "Passes (Opponent Threat)",
-            "definition": "Changing the opponent's goal threat through your own passing game. Progressive passing reduces the opponent's goal threat, while regressive passing and mispassing (usually) increases the opponent's goal threat.",
-            "meaning": "Changing the opponent's goal threat through passing."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1414,
-        "name": "OPP_PXT_DRIBBLE",
-        "details": {
-            "label": "Dribbles (Opponent Threat)",
-            "definition": "The change in the opponent's goal threat through own dribbling. Progressive dribbling reduces the opponent's goal threat, regressive dribbling and dribbling that ends in a loss of the ball (usually) increases the opponent's goal threat.",
-            "meaning": "Changing the opponent's goal threat through dribbling."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1415,
-        "name": "OPP_PXT_SETPIECE",
-        "details": {
-            "label": "Set pieces (Opponent Threat)",
-            "definition": "The increase of the goal threat through a ball reception (only positive changes). PXT_REC is not a direct part of the pxT model, because in the pxT model the passer or the set-piece executing player gets the credit for the successful pass/set-piece. We created this KPI anyway so that you can split the increase in goal threat between passer/pass receiver depending on your preference. PXT_REC is therefore the counterpart to PXT_PASS_PRO and PXT_SETPIECE_PRO.",
-            "meaning": "Changing the opponent's goal threat through set-pieces."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1416,
-        "name": "OPP_PXT_BLOCK",
-        "details": {
-            "label": "Blocks (Opponent Threat)",
-            "definition": "The change in the opponent's goal threat due to blocked passes, shots and set-pieces. The change is calculated from the difference between the opponent's goal threat after the block and the opponent's goal threat before the block.",
-            "meaning": "Changing the opponent's goal threat through blocked passes, shots and set-pieces."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1417,
-        "name": "OPP_PXT_SHOT",
-        "details": {
-            "label": "Shots (Opponent Threat)",
-            "definition": "The change in the opponent's goal threat due to a goal kick. The difference between the opponent's goal threat immediately before the shot and the opponent's goal threat after the shot.",
-            "meaning": "The change to the opponent's goal threat through goal kicks."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1418,
-        "name": "OPP_PXT_BALL_WIN",
-        "details": {
-            "label": "Ball wins (Opponent Threat)",
-            "definition": "The change in the opponent's goal threat due to own ball conquests. The difference between the opponent's goal threat before the ball is won and the opponent's goal threat after the ball is won.",
-            "meaning": "Changing the opponent's goal threat by winning the ball."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1419,
-        "name": "OPP_PXT_FOUL",
-        "details": {
-            "label": "Fouls (Opponent Threat)",
-            "definition": "The change in the opponent's goal threat due to own fouls. The change is calculated by taking the difference between the opponent's goal threat before the foul and the subsequent opponent's goal threat from an opponent's free kick.",
-            "meaning": "Changes in the opponent's goal threat due to own fouls."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1420,
-        "name": "OPP_PXT_NO_VIDEO",
-        "details": {
-            "label": "No Video (Opponent Threat)",
-            "definition": "The change in the opponent's goal threat that you do not see in the video. In addition, changes that cannot be directly assigned to a player or the generic team count. This includes, for example, the increase in goal threat that comes from having a kick-off. It also includes changes due to referee inducedstoppages.",
-            "meaning": "Change in opponent's goal threat when video footage is missing."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1421,
-        "name": "OPP_PXT_BALL_LOSS",
-        "details": {
-            "label": "Ball losses (Opponent Threat)",
-            "definition": "The change in the opponent's goal threat due to own ball losses. The difference between the opponent's goal threat before losing the ball and the opponent's goal threat after losing the ball.",
-            "meaning": "Changing the opponent's goal threat by losing the ball."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1431,
-        "name": "NEUTRAL_PASSES",
-        "details": {
-            "label": "Neutral Passes",
-            "definition": "A neutral pass is any pass that is received under high pressure (pressure >= 80). This included passes that end in aerial duels or passes that are followed by a foul.",
-            "meaning": "Pass that ends in a high pressure situation."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1515,
-        "name": "SHOT_AT_GOAL_NUMBER_ON_TARGET",
-        "details": {
-            "label": "Total Shots On Target",
-            "definition": "A shot on target is considered to be any ball playing action where the player's intention is to score a goal and the ball ends up saved/caught by the opponent goalkeeper or in the goal.",
-            "meaning": "Number of shots On Target."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1516,
-        "name": "SHOT_AT_GOAL_NUMBER_SUCCESS",
-        "details": {
-            "label": "Total Shots Successful",
-            "definition": "A successful shot is considered to be any ball playing action where the player's intention is to score a goal and the ball ends up in the opponent goal.",
-            "meaning": "Number of successful shots (resulting in goals)."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1517,
-        "name": "SHOT_AT_GOAL_NUMBER_SAVED",
-        "details": {
-            "label": "Total Shots Saved",
-            "definition": "A saved shot is considered to be any ball playing action where the player's intention is to score a goal and the ball ends up saved by the opponent goalkeeper.",
-            "meaning": "Number of saved shots."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1518,
-        "name": "SHOT_AT_GOAL_NUMBER_CAUGHT",
-        "details": {
-            "label": "Total Shots Caught",
-            "definition": "A caught shot is considered to be any ball playing action where the player's intention is to score a goal and the ball ends up caught by the opponent goalkeeper.",
-            "meaning": "Number of caught shots."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1519,
-        "name": "SHOT_AT_GOAL_NUMBER_BLOCKED",
-        "details": {
-            "label": "Total Shots Blocked",
-            "definition": "A blocked shot is considered to be any ball playing action where the player's intention is to score a goal and the ball ends up blocked by the opponent field player.",
-            "meaning": "Number of blocked shots."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1520,
-        "name": "SHOT_AT_GOAL_NUMBER_OTHER",
-        "details": {
-            "label": "Total Shots Other",
-            "definition": "A 'total shot other' is considered to be any ball playing action where the player's intention is to score a goal and the ball ends up picked up by an opponent field player (also after hitting the post).",
-            "meaning": "Number of shots picked up by an opponent field player (including post hits)"
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1522,
-        "name": "DEF_PXT_PASS",
-        "details": {
-            "label": "Opponent passes (Defensive Threat)",
-            "definition": "The change in the threat of conceding through passes from the opponent (progressive passes and regressive passes). The change in the threat of conceding is distributed to the responsible players based on the responsability model. The responsible players are rewarded for regressive passes by the opponent and penalized for progressive passes.",
-            "meaning": "Changing the threat of conceding by opponent passes."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1523,
-        "name": "DEF_PXT_DRIBBLE",
-        "details": {
-            "label": "Opponent dribbles (Defensive Threat)",
-            "definition": "The change in the threat of conceding through dribbles from the opponent (progressive dribbles and regressive dribbles). The change in the threat of conceding is distributed to the responsible players based on the responsability model. The responsible players are rewarded for regressive dribbles by the opponent and penalized for progressive dribbles.",
-            "meaning": "Changing the threat of conceding by opponent dribbles."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1524,
-        "name": "DEF_PXT_SETPIECE",
-        "details": {
-            "label": "Opponent set pieces (Defensive Threat)",
-            "definition": "The change in the threat of conceding through set pieces from the opponent (progressive set pieces and set regressive pieces). The change in the threat of conceding is distributed to the responsible players based on the responsability model. The responsible players are rewarded for regressive set pieces by the opponent and penalized for progressive set pieces. There are two variants of special set pieces, which are distributed evenly rather than according to the responsibility model: Corner kicks that end up with a teammate and free kicks that are successfully played into the opponent's box.",
-            "meaning": "Changing the threat of conceding by opponent set pieces."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1525,
-        "name": "DEF_PXT_BLOCK",
-        "details": {
-            "label": "Opponent blocks (Defensive Threat)",
-            "definition": "The change in the threat of conceding through blocks from the opponent (progressive blocks and regressive blocks). The change in the threat of conceding is distributed to the responsible players based on the responsability model. The responsible players are rewarded for regressive blocks by the opponent and penalized for progressive blocks.",
-            "meaning": "Changing the threat of conceding by opponent blocks."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1526,
-        "name": "DEF_PXT_SHOT",
-        "details": {
-            "label": "Opponent shots (Defensive Threat)",
-            "definition": "The change in the threat of conceding through shots from the opponent. The change in the threat of conceding is distributed equally across all players on the field and we recommend not to assign this value to the players.",
-            "meaning": "Changing the threat of conceding by opponent shots."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1527,
-        "name": "DEF_PXT_BALL_WIN",
-        "details": {
-            "label": null,
-            "definition": "The change in the threat of conceding by winning the ball actively.",
-            "meaning": "Changing the threat of conceding by ball wins (active KPI)."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1528,
-        "name": "DEF_PXT_NOVIDEO",
-        "details": {
-            "label": "No video (Defensive Threat)",
-            "definition": "The change in the threat of conceding due to an event that is not captured on video.",
-            "meaning": "Changing the threat of conceding by no video events. This KPI should not be attributed to players."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1529,
-        "name": "DEF_PXT_BALL_LOSS",
-        "details": {
-            "label": "Ball losses (Defensive Threat)",
-            "definition": "The change in the threat of conceding by losing the ball actively.",
-            "meaning": "Changing the threat of conceding by ball losses (active KPI)."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1530,
-        "name": "DEF_PXT_FOUL",
-        "details": {
-            "label": null,
-            "definition": "The change in the threat of conceding due to a foul.",
-            "meaning": "Changing the threat of conceding by fouls. The highest values are achived by fouling within the own box."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1531,
-        "name": "PXT_PASSIVE",
-        "details": {
-            "label": "Passive",
-            "definition": "The change in a team's goal threat while the opponent team is in ball possession. The change of a team's goal threat is calculated based on the responsability model.",
-            "meaning": "Changing your team's goal threat through passive actions. If the opponent manages to get the ball into our box, he not only increases his own goal threat but also decreases the opponent's goal threat. This drop in the threat of conceding goals due to passive behaviour is distributed among the players of your own team based on the responsiveness model."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1532,
-        "name": "PXT_OTHER",
-        "details": {
-            "label": "Other",
-            "definition": "The change in a team's goal threat due to actions that can't be attributed to a player. It consists of 'OPP_PXT_SHOT' and 'OPP_PXT_NOVIDEO'.",
-            "meaning": "Changes of a team's goal threat through 'other' actions."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1533,
-        "name": "PXT_FOULED",
-        "details": {
-            "label": "Fouled",
-            "definition": "The change in a team's goal threat which is achieved by being fouled.",
-            "meaning": "Changing your team's goal threat by getting fouled. The highest scores are achieved by winning a penalty."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1534,
-        "name": "DEF_PXT_ACTIVE",
-        "details": {
-            "label": "Active actions (Defensive Threat)",
-            "definition": "The change in the threat of conceding by active actions like passes, dribbles, set pieces and blocks.",
-            "meaning": "Changing the threat of conceding by active actions on the ball (passes, dribbles, set pieces blocks). If a player only has successful progressive passes, he is only increases the own team's goal threat but also descreasing the opponent team's goal threat."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1535,
-        "name": "DEF_PXT_OTHER",
-        "details": {
-            "label": "Other (Defensive Threat)",
-            "definition": "The change in the threat of conceding by other actions. This KPI consists of 'PXT_FOUL' and 'PXT_NO_VIDEO' and is attributed to all players of the opponent team.",
-            "meaning": "Changing the threat of conceding through 'other' actions."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1536,
-        "name": "NUMBER_OF_PRESSES",
-        "details": {
-            "label": "Number of presses",
-            "definition": "A player applies a 'press' if (1) he is attacking the ball carrying player with the intention to win the ball or (2) he is closer than 1m to the ball carrying player.",
-            "meaning": "Applying a high amount of pressure on the opponent player."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1610,
-        "name": "SECOND_BALL_START",
-        "details": {
-            "label": "Second Ball Starts",
-            "definition": "The action that results in a 'second ball' phase where a high amount of pressure on the ball carrying player is applied and where no team has real control over the ball. It is typically the result of a high pass into an aerial duel, a blocked pass/shot or a saved pass or shot.",
-            "meaning": "Action that is the start of a 'second ball' phase."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1611,
-        "name": "SECOND_BALL_WIN",
-        "details": {
-            "label": "Second Ball Wins",
-            "definition": "The win of the 'second ball' phase is achieved if a player manages to bring enough control over the ball (pressure <40).",
-            "meaning": "Won second ball - bringing the ball under own control after a second ball phase."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1612,
-        "name": "DISTANCE_TO_GOAL_COVERED_FDR",
-        "details": {
-            "label": "Distance Covered From Deep Runs",
-            "definition": "Difference in the distance to the opposing goal between the reception of a progressive a pass with the action 'availablity from deep runs', and the distance to goal of the previous pass.",
-            "meaning": "Distance to goal covered by receiving a pass in a deep run."
-        },
-        "parentKpi": null,
-        "context": null
-    },
-    {
-        "id": 1613,
-        "name": "DISTANCE_TO_GOAL_COVERED_DRIBBLE",
-        "details": {
-            "label": "Distance Covered By Dribbles",
-            "definition": "Difference in the distance to the opposing goal due to the dribble (between release of the ball and reception).",
-            "meaning": "Distance to goal covered by progressive dribbles."
-        },
-        "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 1633,
@@ -1007,7 +562,8 @@
             "meaning": "Evaluates a player's impact on goal probability while their team is attacking."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 1634,
@@ -1018,7 +574,8 @@
             "meaning": "Evaluates a player's impact on goal probability while their team is defending."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 1635,
@@ -1029,7 +586,8 @@
             "meaning": "Evaluates a player's impact on the probability of conceding a goal while their team is attacking."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": true
     },
     {
         "id": 1636,
@@ -1040,7 +598,548 @@
             "meaning": "Evaluates a player's impact on the probability of conceding a goal while their team is defending."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": true
+    },
+    {
+        "id": 1404,
+        "name": "PXT_PASS",
+        "details": {
+            "label": "Passes",
+            "definition": "The change in a team\u2019s goal threat through passes. This includes all progressive passes (increasing the goal threat), regressive passes (passes that reach the teammate but reduce the goal threat) and missed passes (passes intercepted by the opponent, that go out of play or end up offside). These 3 types of passes can also be viewed separately via the KPIs PXT_PASS_PRO, PXT_PASS_REG and PXT_PASS_FAIL.",
+            "meaning": "Changing your goal threat through passing."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1405,
+        "name": "PXT_DRIBBLE",
+        "details": {
+            "label": "Dribbles",
+            "definition": "The change in a team\u2019s goal threat with dribbling. This includes all progressive dribbles (increasing the goal threat), regressive dribbles (dribbles without losing the ball but still reduce the goal threat) and unsuccessful dribbles (dribbles that end up with the ball being lost to the opponent or go out of play or when the dribbling player commits a foul themselves). These 3 types of dribbles can also be viewed separately via the KPIs PXT_DRIBBLE_PRO, PXT_DRIBBLE_REG and PXT_DRIBBLE_FAIL.",
+            "meaning": "Changing your goal threat through dribbling."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1406,
+        "name": "PXT_SETPIECE",
+        "details": {
+            "label": "Set pieces",
+            "definition": "The change in a team\u2019s goal threat through set-pieces (free kick, corner, throw-in, goal kick, kick-off). This includes all progressive set-pieces (increasing the goal threat), regressive set-pieces (passes that reach a teammate but reduce goal threat) and set-pieces that end up with possession lost to the opponent or offside. These 3 types of set-pieces can also be viewed separately via the KPIs PXT_SETPIECE_PRO, PXT_SETPIECE_REG and PXT_SETPIECE_FAIL.",
+            "meaning": "Changing your goal threat through set-pieces."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1407,
+        "name": "PXT_BLOCK",
+        "details": {
+            "label": "Blocks",
+            "definition": "The change in a team\u2019s goal threat due to blocked passes, shots and set-pieces. The change is calculated from the difference between the goal threat after the block and the goal threat before the block.",
+            "meaning": "Changing your goal threat through blocked passes, shots and set-pieces."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1408,
+        "name": "PXT_SHOT",
+        "details": {
+            "label": "Shots",
+            "definition": "The change in a team\u2019s goal threat through shots. A distinction is made whether the shot was on target or not. The reason for this is that the pxT model is based on post-shot xG: If the shot is on target, PXT_SHOT is calculated by the difference between post-shot xG and the goal threat immediately before the shot. If the shot is not on target (if it is blocked or does not hit the target), PXT_SHOT is calculated by the difference between the goal threat after the shot and the goal threat before the shot.",
+            "meaning": "Changing your goal threat through shots."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1409,
+        "name": "PXT_BALL_WIN",
+        "details": {
+            "label": "Ball wins",
+            "definition": "The change in a team\u2019s goal threat through ball wins from open play. Calculated from the difference between a team\u2019s goal threat after ball win and the threat of the team before the ball win.",
+            "meaning": "Changing your goal threat through ball wins."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1410,
+        "name": "PXT_FOUL",
+        "details": {
+            "label": "Fouls",
+            "definition": "The change in a team\u2019s goal threat due to committing fouls. The change is calculated by taking the difference between a team\u2019s goal threat before a foul is committed and the subsequent goal threat at the opponent's free kick.",
+            "meaning": "Changing your goal threat from fouls."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1411,
+        "name": "PXT_NO_VIDEO",
+        "details": {
+            "label": "No Video",
+            "definition": "The change in a team\u2019s goal threat that you don't see due to missing video. In addition, changes that cannot be directly assigned to one of your own players or to the opponent team count. This includes, for example, the increase in goal threat that comes from having a kick-off. It also includes changes due to referee-induced stoppages.",
+            "meaning": "Changing your goal threat when video footage is missing."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1412,
+        "name": "PXT_REC",
+        "details": {
+            "label": "Receiving",
+            "definition": "The increase in a team\u2019s goal threat by receiving the ball (only positive changes). PXT_REC is not a direct part of the pxT model, because in the pxT model the passer or the set-piece taking player gets the credit for the successful pass/set-piece. We created this KPI anyway so that you can split the increase in goal threat between passer/pass receiver depending on your preference. PXT_REC is therefore the counterpart to PXT_PASS_PRO and PXT_SETPIECE_PRO.",
+            "meaning": "Increasing your goal threat through receiving."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1413,
+        "name": "OPP_PXT_PASS",
+        "details": {
+            "label": "Passes (Opponent Threat)",
+            "definition": "Changing the opponent's goal threat through your own passing game. Progressive passing reduces the opponent's goal threat, while regressive passing and mispassing (usually) increases the opponent's goal threat.",
+            "meaning": "Changing the opponent's goal threat through passing."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1414,
+        "name": "OPP_PXT_DRIBBLE",
+        "details": {
+            "label": "Dribbles (Opponent Threat)",
+            "definition": "The change in the opponent's goal threat through own dribbling. Progressive dribbling reduces the opponent's goal threat, regressive dribbling and dribbling that ends in a loss of the ball (usually) increases the opponent's goal threat.",
+            "meaning": "Changing the opponent's goal threat through dribbling."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1415,
+        "name": "OPP_PXT_SETPIECE",
+        "details": {
+            "label": "Set pieces (Opponent Threat)",
+            "definition": "The change in the opponent's goal threat through own set-pieces. Progressive set-pieces reduce the opponent's goal threat, while regressive set-pieces and set-pieces that end up with an opponent (usually) increase the opponent's goal threat.",
+            "meaning": "Changing the opponent's goal threat through set-pieces."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1416,
+        "name": "OPP_PXT_BLOCK",
+        "details": {
+            "label": "Blocks (Opponent Threat)",
+            "definition": "The change in the opponent's goal threat due to blocked passes, shots and set-pieces. The change is calculated from the difference between the opponent's goal threat after the block and the opponent's goal threat before the block.",
+            "meaning": "Changing the opponent's goal threat through blocked passes, shots and set-pieces."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1417,
+        "name": "OPP_PXT_SHOT",
+        "details": {
+            "label": "Shots (Opponent Threat)",
+            "definition": "The change in the opponent's goal threat due to a shot. The difference between the opponent's goal threat immediately before the shot and the opponent's goal threat after the shot.",
+            "meaning": "The change to the opponent's goal threat through shots."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1418,
+        "name": "OPP_PXT_BALL_WIN",
+        "details": {
+            "label": "Ball wins (Opponent Threat)",
+            "definition": "The change in the opponent's goal threat due to own ball wins. The difference between the opponent's goal threat before the ball is won and the opponent's goal threat after the ball is won.",
+            "meaning": "Changing the opponent's goal threat by winning the ball."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1419,
+        "name": "OPP_PXT_FOUL",
+        "details": {
+            "label": "Fouls (Opponent Threat)",
+            "definition": "The change in the opponent's goal threat due to own fouls. The change is calculated by taking the difference between the opponent's goal threat before the foul and the subsequent opponent's goal threat from an opponent's free kick.",
+            "meaning": "Changes in the opponent's goal threat due to own fouls."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1420,
+        "name": "OPP_PXT_NO_VIDEO",
+        "details": {
+            "label": "No Video (Opponent Threat)",
+            "definition": "The change in the opponent's goal threat that you do not see in the video. In addition, changes that cannot be directly assigned to a player or the opponent team count. This includes, for example, the increase in goal threat that comes from having a kick-off. It also includes changes due to referee-induced stoppages.",
+            "meaning": "Change in opponent's goal threat when video footage is missing."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1421,
+        "name": "OPP_PXT_BALL_LOSS",
+        "details": {
+            "label": "Ball losses (Opponent Threat)",
+            "definition": "The change in the opponent's goal threat due to own ball losses. The difference between the opponent's goal threat before losing the ball and the opponent's goal threat after losing the ball.",
+            "meaning": "Changing the opponent's goal threat by losing the ball."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1431,
+        "name": "NEUTRAL_PASSES",
+        "details": {
+            "label": "Neutral Passes",
+            "definition": "A neutral pass is any pass that is received under high pressure (pressure >= 80). This includes passes that end in aerial duels or passes that are followed by a foul.",
+            "meaning": "Pass that ends in a high pressure situation."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1515,
+        "name": "SHOT_AT_GOAL_NUMBER_ON_TARGET",
+        "details": {
+            "label": "Total Shots On Target",
+            "definition": "A shot on target is considered to be any ball playing action where the player's intention is to score a goal and the ball ends up saved/caught by the opponent goalkeeper or in the goal.",
+            "meaning": "Number of shots On Target."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1516,
+        "name": "SHOT_AT_GOAL_NUMBER_SUCCESS",
+        "details": {
+            "label": "Total Shots Successful",
+            "definition": "A successful shot is considered to be any ball playing action where the player's intention is to score a goal and the ball ends up in the opponent goal.",
+            "meaning": "Number of successful shots (resulting in goals)."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1517,
+        "name": "SHOT_AT_GOAL_NUMBER_SAVED",
+        "details": {
+            "label": "Total Shots Saved",
+            "definition": "A saved shot is considered to be any ball playing action where the player's intention is to score a goal and the ball ends up saved by the opponent goalkeeper.",
+            "meaning": "Number of saved shots."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1518,
+        "name": "SHOT_AT_GOAL_NUMBER_CAUGHT",
+        "details": {
+            "label": "Total Shots Caught",
+            "definition": "A caught shot is considered to be any ball playing action where the player's intention is to score a goal and the ball ends up caught by the opponent goalkeeper.",
+            "meaning": "Number of caught shots."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1519,
+        "name": "SHOT_AT_GOAL_NUMBER_BLOCKED",
+        "details": {
+            "label": "Total Shots Blocked",
+            "definition": "A blocked shot is considered to be any ball playing action where the player's intention is to score a goal and the ball ends up blocked by the opponent field player.",
+            "meaning": "Number of blocked shots."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1520,
+        "name": "SHOT_AT_GOAL_NUMBER_OTHER",
+        "details": {
+            "label": "Total Shots Other",
+            "definition": "A 'total shot other' is considered to be any ball playing action where the player's intention is to score a goal and the ball ends up picked up by an opponent field player (also after hitting the post).",
+            "meaning": "Number of shots picked up by an opponent field player (including post hits)"
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1522,
+        "name": "DEF_PXT_PASS",
+        "details": {
+            "label": "Opponent passes (Defensive Threat)",
+            "definition": "The change in the threat of conceding through passes from the opponent (progressive passes and regressive passes). The change in the threat of conceding is distributed to the responsible players based on the responsibility model. The responsible players are rewarded for regressive passes by the opponent and penalized for progressive passes.",
+            "meaning": "Changing the threat of conceding by opponent passes."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": true
+    },
+    {
+        "id": 1523,
+        "name": "DEF_PXT_DRIBBLE",
+        "details": {
+            "label": "Opponent dribbles (Defensive Threat)",
+            "definition": "The change in the threat of conceding through dribbles from the opponent (progressive dribbles and regressive dribbles). The change in the threat of conceding is distributed to the responsible players based on the responsibility model. The responsible players are rewarded for regressive dribbles by the opponent and penalized for progressive dribbles.",
+            "meaning": "Changing the threat of conceding by opponent dribbles."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": true
+    },
+    {
+        "id": 1524,
+        "name": "DEF_PXT_SETPIECE",
+        "details": {
+            "label": "Opponent set pieces (Defensive Threat)",
+            "definition": "The change in the threat of conceding through set pieces from the opponent (progressive set pieces and regressive set pieces). The change in the threat of conceding is distributed to the responsible players based on the responsibility model. The responsible players are rewarded for regressive set pieces by the opponent and penalized for progressive set pieces. There are two variants of special set pieces, which are distributed evenly rather than according to the responsibility model: Corner kicks that end up with a teammate and free kicks that are successfully played into the opponent's box.",
+            "meaning": "Changing the threat of conceding by opponent set pieces."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": true
+    },
+    {
+        "id": 1525,
+        "name": "DEF_PXT_BLOCK",
+        "details": {
+            "label": "Opponent blocks (Defensive Threat)",
+            "definition": "The change in the threat of conceding through blocks from the opponent (progressive blocks and regressive blocks). The change in the threat of conceding is distributed to the responsible players based on the responsibility model. The responsible players are rewarded for regressive blocks by the opponent and penalized for progressive blocks.",
+            "meaning": "Changing the threat of conceding by opponent blocks."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": true
+    },
+    {
+        "id": 1526,
+        "name": "DEF_PXT_SHOT",
+        "details": {
+            "label": "Opponent shots (Defensive Threat)",
+            "definition": "The change in the threat of conceding through shots from the opponent. The change in the threat of conceding is distributed equally across all players on the field and we recommend not to assign this value to the players.",
+            "meaning": "Changing the threat of conceding by opponent shots."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": true
+    },
+    {
+        "id": 1527,
+        "name": "DEF_PXT_BALL_WIN",
+        "details": {
+            "label": "Ball Wins",
+            "definition": "The change in the threat of conceding by winning the ball actively.",
+            "meaning": "Changing the threat of conceding by ball wins (active KPI)."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": true
+    },
+    {
+        "id": 1528,
+        "name": "DEF_PXT_NOVIDEO",
+        "details": {
+            "label": "No video (Defensive Threat)",
+            "definition": "The change in the threat of conceding due to an event that is not captured on video.",
+            "meaning": "Changing the threat of conceding by no video events. This KPI should not be attributed to players."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": true
+    },
+    {
+        "id": 1529,
+        "name": "DEF_PXT_BALL_LOSS",
+        "details": {
+            "label": "Ball losses (Defensive Threat)",
+            "definition": "The change in the threat of conceding by losing the ball actively.",
+            "meaning": "Changing the threat of conceding by ball losses (active KPI)."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": true
+    },
+    {
+        "id": 1530,
+        "name": "DEF_PXT_FOUL",
+        "details": {
+            "label": "Fouls",
+            "definition": "The change in the threat of conceding due to a foul.",
+            "meaning": "Changing the threat of conceding by fouls. The highest values are achieved by fouling within the own box."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": true
+    },
+    {
+        "id": 1531,
+        "name": "PXT_PASSIVE",
+        "details": {
+            "label": "Passive",
+            "definition": "The change in a team's goal threat while the opponent team is in ball possession. The change of a team's goal threat is calculated based on the responsibility model.",
+            "meaning": "Changing your team's goal threat through passive actions. If the opponent manages to get the ball into our box, he not only increases his own goal threat but also decreases the opponent's goal threat. This drop in the threat of conceding goals due to passive behaviour is distributed among the players of your own team based on the responsibility model."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1532,
+        "name": "PXT_OTHER",
+        "details": {
+            "label": "Other",
+            "definition": "The change in a team's goal threat due to actions that can't be attributed to a player. It consists of 'OPP_PXT_SHOT' and 'OPP_PXT_NO_VIDEO'.",
+            "meaning": "Changes of a team's goal threat through 'other' actions."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1533,
+        "name": "PXT_FOULED",
+        "details": {
+            "label": "Fouled",
+            "definition": "The change in a team's goal threat which is achieved by being fouled.",
+            "meaning": "Changing your team's goal threat by getting fouled. The highest scores are achieved by winning a penalty."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1534,
+        "name": "DEF_PXT_ACTIVE",
+        "details": {
+            "label": "Active actions (Defensive Threat)",
+            "definition": "The change in the threat of conceding by active actions like passes, dribbles, set pieces and blocks.",
+            "meaning": "Changing the threat of conceding by active actions on the ball (passes, dribbles, set pieces blocks). If a player only has successful progressive passes, he not only increases the own team's goal threat but also decreases the opponent team's goal threat."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": true
+    },
+    {
+        "id": 1535,
+        "name": "DEF_PXT_OTHER",
+        "details": {
+            "label": "Other (Defensive Threat)",
+            "definition": "The change in the threat of conceding by other actions. This KPI consists of 'DEF_PXT_FOUL' and 'DEF_PXT_NOVIDEO' and is attributed to all players of the opponent team.",
+            "meaning": "Changing the threat of conceding through 'other' actions."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": true
+    },
+    {
+        "id": 1536,
+        "name": "NUMBER_OF_PRESSES",
+        "details": {
+            "label": "Number of presses",
+            "definition": "A player applies a 'press' if (1) he is attacking the ball carrying player with the intention to win the ball or (2) he is closer than 1m to the ball carrying player.",
+            "meaning": "Applying a high amount of pressure on the opponent player."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1610,
+        "name": "SECOND_BALL_START",
+        "details": {
+            "label": "Second Ball Starts",
+            "definition": "The action that results in a 'second ball' phase where a high amount of pressure on the ball carrying player is applied and where no team has real control over the ball. It is typically the result of a high pass into an aerial duel, a blocked pass/shot or a saved pass or shot.",
+            "meaning": "Action that is the start of a 'second ball' phase."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1611,
+        "name": "SECOND_BALL_WIN",
+        "details": {
+            "label": "Second Ball Wins",
+            "definition": "The win of the 'second ball' phase is achieved if a player manages to gain enough control over the ball (pressure <40).",
+            "meaning": "Won second ball - bringing the ball under own control after a second ball phase."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1612,
+        "name": "DISTANCE_TO_GOAL_COVERED_FDR",
+        "details": {
+            "label": "Distance Covered From Deep Runs",
+            "definition": "Difference in the distance to the opposing goal between the reception of a progressive pass with the action 'availability from deep runs', and the distance to goal of the previous pass.",
+            "meaning": "Distance to goal covered by receiving a pass in a deep run."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 1613,
+        "name": "DISTANCE_TO_GOAL_COVERED_DRIBBLE",
+        "details": {
+            "label": "Distance Covered By Dribbles",
+            "definition": "Difference in the distance to the opposing goal due to the dribble (between release of the ball and reception).",
+            "meaning": "Distance to goal covered by progressive dribbles."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": false
+    },
+    {
+        "id": 22,
+        "name": "BALL_LOSS_NUMBER",
+        "details": {
+            "label": "Ball Loss Number",
+            "definition": "The number of ball losses due to passes, set-pieces or dribbles.",
+            "meaning": "The number of ball losses."
+        },
+        "parentKpi": null,
+        "context": null,
+        "inverted": true
     },
     {
         "id": 1637,
@@ -1051,7 +1150,8 @@
             "meaning": "Number of Yellow Cards."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 1638,
@@ -1062,7 +1162,8 @@
             "meaning": "Number of sendings off due to Second Yellow Cards."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 1693,
@@ -1073,18 +1174,20 @@
             "meaning": "Shot xG from Passes shows how much scoring potential a player has created through passing. It reflects the quality of chances set up by a player \u2014 not just how many \u2014 and is unaffected by whether the shot resulted in a goal. It answers the question: \u201cHow many expected goals have resulted from this player\u2019s passes?\u201d. This allows us to identify players who consistently create high-value chances, even if their teammates fail to score. Unlike traditional assist stats, this metric focuses on chance quality, not finishing."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 1694,
         "name": "SHOT_CREATING_ACTIONS",
         "details": {
             "label": "Shot-Creating Actions",
-            "definition": "Shot-Creating Actions are the two offensive actions directly leading to a shot attempt. This includes passes, and fouls drawn that set up a teammate\u2019s shot. Specifically, an Shot-Creating Actions consists of the last two events before a shot, regardless of whether they occur in open play or from set pieces.",
+            "definition": "Shot-Creating Actions are the two offensive actions directly leading to a shot attempt. This includes passes and fouls drawn that set up a teammate\u2019s shot. Specifically, a Shot-Creating Action consists of the last two events before a shot, regardless of whether they occur in open play or from set pieces.",
             "meaning": "Shot-Creating Actions measure the creative involvement of players in shot development, going beyond just assists. They highlight players who consistently contribute to offensive build-up and shot creation, making it a valuable KPI for evaluating playmakers, wingers, and midfielders involved in attacking sequences."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 1715,
@@ -1095,18 +1198,20 @@
             "meaning": "Pre-Assists highlight the creative and tactical influence of players who are heavily involved in build-up play. They often indicate vision, awareness, and passing quality. This KPI is especially useful for evaluating playmakers or midfielders whose impact on goal-scoring goes beyond traditional assists."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 1780,
         "name": "SHOT_ASSISTS",
         "details": {
             "label": "Shot Assists",
-            "definition": "A shot assist is awarded when a player delivers the final pass or set piece that directly leads to a teammate taking a shot. This includes all types of deliveries such as short or long passes, crosses, through balls, corners, and free kicks, provided the action immediately precedes a shot attempt. The metric is a simple count of such events, independent of whether the resulting shot was on target or resulted in a goal. Only passes to the final third or opponent box are awarded.",
+            "definition": "A shot assist is awarded when a player delivers the final pass or set piece that directly leads to a teammate taking a shot. This includes all types of deliveries such as short or long passes, crosses, through balls, corners, and free kicks, provided the action immediately precedes a shot attempt. The metric is a simple count of such events, independent of whether the resulting shot was on target or resulted in a goal. Only passes to the final third or opponent box are considered.",
             "meaning": "SHOT_ASSISTS measure how actively a player contributes to creating shooting opportunities for teammates. A higher number indicates frequent involvement in dangerous situations, showcasing creativity, vision, and execution in both open play and set-piece situations."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 1781,
@@ -1117,28 +1222,31 @@
             "meaning": "This KPI provides a lower-variance baseline for creative output than raw SHOT_ASSISTS, indicating how many shot assists a player\u2019s passing would typically yield given the quality of their deliveries. A higher value signals that the player consistently delivers passes/set pieces that tend to generate shots, even if the actual shot-assist count swings from match to match. Comparing SHOT_ASSISTS to EXPECTED_SHOT_ASSISTS helps identify over- or underperformance driven by context (e.g., whether teammates actually took the shot) rather than the passer\u2019s underlying contribution."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 1782,
         "name": "EXPECTED_GOAL_ASSISTS",
         "details": {
             "label": "Expected Goal Assists",
-            "definition": "A model-based estimate of how many goal assists a player is expected to record from their passes or set pieces. For each pass/set piece, the model calculates the probability that it will become a shot assist leading to a goal (i.e., an assist), based on the quality of the pass and the typical conversion likelihood. EXPECTED_GOAL_ASSISTS is the sum of these probabilities across all passes/set pieces in the selected period. Only passes and set pieces into the final third or opponent box are awarded.",
+            "definition": "A model-based estimate of how many goal assists a player is expected to record from their passes or set pieces. For each pass/set piece, the model calculates the probability that it will become a shot assist leading to a goal (i.e., an assist), based on the quality of the pass and the typical conversion likelihood. EXPECTED_GOAL_ASSISTS is the sum of these probabilities across all passes/set pieces in the selected period. Only passes and set pieces into the final third or opponent box are considered.",
             "meaning": "This KPI provides a stabilized, expectation-based view of creative output, reducing the variance inherent in raw assists. It reflects how many assists a player would normally be expected to achieve given the quality of their deliveries, independent of whether teammates actually finished the chances. A higher value signals that the player consistently generates passes/set pieces with strong goal-assist potential, making it a fairer indicator of underlying creative contribution than realized assists alone."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     },
     {
         "id": 1783,
         "name": "EXPECTED_PASSES",
         "details": {
             "label": "Expected Passes",
-            "definition": "A model-based estimate of how many passes and set pieces a player is expected to complete successfully, given the difficulty of each attempted pass. The model evaluates contextual factors such as pass distance, angle, opponents, pressure, distance to goal, distance to side lane, phase of play, action, and attempted receiver positon to assign a completion probability to every attempted pass. EXPECTED_PASSES is the sum of these probabilities across all passes in the selected period.",
+            "definition": "A model-based estimate of how many passes and set pieces a player is expected to complete successfully, given the difficulty of each attempted pass. The model evaluates contextual factors such as pass distance, angle, opponents, pressure, distance to goal, distance to side lane, phase of play, action, and attempted receiver position to assign a completion probability to every attempted pass. EXPECTED_PASSES is the sum of these probabilities across all passes in the selected period.",
             "meaning": "Expected passes provide a statistical benchmark for assessing passing performance. By comparing expected passes with a player\u2019s actual successful passes, we can measure whether the player is completing more or fewer passes than the model predicts. To do this, two derived scores are useful: Pass Completion Over Expected and Pass Accuracy Over Expected. These scores capture whether a player is performing above, in line with, or below the expected baseline, and help highlight technical passing skill, decision-making, and ability under pressure. Example: If a player attempts 10 passes and completes 8, while the model predicts 7.5 expected completions, then: Pass Completion Over Expected = (8 \u2013 7.5) / 7.5 = +6.7% and Pass Accuracy Over Expected = (8 \u2013 7.5) / 10 = +5%."
         },
         "parentKpi": null,
-        "context": null
+        "context": null,
+        "inverted": false
     }
 ]

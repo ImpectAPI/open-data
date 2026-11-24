@@ -1,7 +1,7 @@
 {
     "id": 122986,
     "dateTime": "2024-01-14T16:30:00Z",
-    "lastCalculationDate": "2025-07-24T00:48:37.155988Z",
+    "lastCalculationDate": "2026-11-21T13:08:57.207420Z",
     "iterationId": 743,
     "squadHome": {
         "id": 32,
@@ -202,6 +202,19 @@
                     "gameTime": "90:00.0000 (+01:47.8740)",
                     "gameTimeInSec": 12807.874
                 },
+                "playerId": 810,
+                "toPosition": "CENTRAL_MIDFIELD",
+                "positionSide": "CENTRE_LEFT",
+                "fromPosition": "BANK",
+                "fromPositionSide": "UNKNOWN",
+                "exchangedPlayerId": null,
+                "substitutionType": null
+            },
+            {
+                "gameTime": {
+                    "gameTime": "90:00.0000 (+01:47.8740)",
+                    "gameTimeInSec": 12807.874
+                },
                 "playerId": 4168,
                 "toPosition": "BANK",
                 "positionSide": "UNKNOWN",
@@ -225,21 +238,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "90:00.0000 (+02:03.7670)",
-                    "gameTimeInSec": 12823.767
-                },
-                "playerId": 810,
-                "toPosition": "CENTRAL_MIDFIELD",
-                "positionSide": "CENTRE_LEFT",
-                "fromPosition": "BANK",
-                "fromPositionSide": "UNKNOWN",
-                "exchangedPlayerId": null,
-                "substitutionType": null
-            },
-            {
-                "gameTime": {
-                    "gameTime": "90:00.0000 (+02:03.7670)",
-                    "gameTimeInSec": 12823.767
+                    "gameTime": "90:00.0000 (+01:47.8740)",
+                    "gameTimeInSec": 12807.874
                 },
                 "playerId": 48270,
                 "toPosition": "BANK",
@@ -258,7 +258,7 @@
                 "formation": "4-3-3"
             }
         ],
-        "coachId": null
+        "coachId": 5667
     },
     "squadAway": {
         "id": 46,
@@ -572,6 +572,7 @@
                 "formation": "5-2-2-1"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 661
+    },
+    "stadiumId": 876
 }

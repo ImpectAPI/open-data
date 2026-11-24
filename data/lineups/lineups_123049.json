@@ -1,7 +1,7 @@
 {
     "id": 123049,
     "dateTime": "2024-03-02T14:30:00Z",
-    "lastCalculationDate": "2025-08-14T13:58:16.570454Z",
+    "lastCalculationDate": "2026-11-21T13:04:06.541136Z",
     "iterationId": 743,
     "squadHome": {
         "id": 432,
@@ -303,8 +303,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "84:05.5350",
-                    "gameTimeInSec": 12345.535
+                    "gameTime": "83:56.1490",
+                    "gameTimeInSec": 12336.149
                 },
                 "playerId": 23088,
                 "toPosition": "RIGHT_WINGER",
@@ -316,8 +316,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "84:05.5350",
-                    "gameTimeInSec": 12345.535
+                    "gameTime": "83:56.1490",
+                    "gameTimeInSec": 12336.149
                 },
                 "playerId": 63569,
                 "toPosition": "BANK",
@@ -336,7 +336,7 @@
                 "formation": "4-2-3-1"
             }
         ],
-        "coachId": null
+        "coachId": 2550
     },
     "squadAway": {
         "id": 35,
@@ -663,6 +663,7 @@
                 "formation": "4-4-2 (flat)"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 780
+    },
+    "stadiumId": 874
 }

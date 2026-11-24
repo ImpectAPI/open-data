@@ -1,7 +1,7 @@
 {
     "id": 122940,
     "dateTime": "2023-11-25T17:30:00Z",
-    "lastCalculationDate": "2025-07-24T00:59:06.583116Z",
+    "lastCalculationDate": "2026-11-21T13:12:27.739131Z",
     "iterationId": 743,
     "squadHome": {
         "id": 35,
@@ -341,7 +341,7 @@
                 "formation": "5-2-2-1"
             }
         ],
-        "coachId": null
+        "coachId": 780
     },
     "squadAway": {
         "id": 46,
@@ -503,6 +503,19 @@
                     "gameTime": "58:56.5780",
                     "gameTimeInSec": 10836.578
                 },
+                "playerId": 27426,
+                "toPosition": "RIGHT_WINGER",
+                "positionSide": "RIGHT",
+                "fromPosition": "BANK",
+                "fromPositionSide": "UNKNOWN",
+                "exchangedPlayerId": null,
+                "substitutionType": null
+            },
+            {
+                "gameTime": {
+                    "gameTime": "58:56.5780",
+                    "gameTimeInSec": 10836.578
+                },
                 "playerId": 35172,
                 "toPosition": "BANK",
                 "positionSide": "UNKNOWN",
@@ -526,21 +539,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "59:03.1610",
-                    "gameTimeInSec": 10843.161
-                },
-                "playerId": 27426,
-                "toPosition": "RIGHT_WINGER",
-                "positionSide": "RIGHT",
-                "fromPosition": "BANK",
-                "fromPositionSide": "UNKNOWN",
-                "exchangedPlayerId": null,
-                "substitutionType": null
-            },
-            {
-                "gameTime": {
-                    "gameTime": "59:03.1610",
-                    "gameTimeInSec": 10843.161
+                    "gameTime": "58:56.5780",
+                    "gameTimeInSec": 10836.578
                 },
                 "playerId": 51629,
                 "toPosition": "BANK",
@@ -629,6 +629,7 @@
                 "formation": "4-2-3-1"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 661
+    },
+    "stadiumId": 227
 }

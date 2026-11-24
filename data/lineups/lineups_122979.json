@@ -1,7 +1,7 @@
 {
     "id": 122979,
     "dateTime": "2023-12-19T17:30:00Z",
-    "lastCalculationDate": "2025-07-24T00:52:56.371685Z",
+    "lastCalculationDate": "2026-11-21T13:09:13.000258Z",
     "iterationId": 743,
     "squadHome": {
         "id": 38,
@@ -191,7 +191,7 @@
                 },
                 "playerId": 3153,
                 "toPosition": "CENTRAL_MIDFIELD",
-                "positionSide": "CENTRE_RIGHT",
+                "positionSide": "CENTRE_LEFT",
                 "fromPosition": "ATTACKING_MIDFIELD",
                 "fromPositionSide": "CENTRE",
                 "exchangedPlayerId": null,
@@ -256,7 +256,7 @@
                 },
                 "playerId": 49804,
                 "toPosition": "CENTRAL_MIDFIELD",
-                "positionSide": "CENTRE_LEFT",
+                "positionSide": "CENTRE_RIGHT",
                 "fromPosition": "BANK",
                 "fromPositionSide": "UNKNOWN",
                 "exchangedPlayerId": null,
@@ -315,7 +315,7 @@
                 "formation": "5-3-2"
             }
         ],
-        "coachId": null
+        "coachId": 5665
     },
     "squadAway": {
         "id": 37,
@@ -598,6 +598,7 @@
                 "formation": "4-4-2 (flat)"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 3598
+    },
+    "stadiumId": 866
 }

@@ -1,7 +1,7 @@
 {
     "id": 122971,
     "dateTime": "2023-12-16T14:30:00Z",
-    "lastCalculationDate": "2025-07-30T06:21:43.617233Z",
+    "lastCalculationDate": "2026-11-21T13:10:46.717618Z",
     "iterationId": 743,
     "squadHome": {
         "id": 39,
@@ -336,7 +336,7 @@
                 "formation": "4-2-3-1"
             }
         ],
-        "coachId": null
+        "coachId": 5662
     },
     "squadAway": {
         "id": 29,
@@ -599,8 +599,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "88:54.9800",
-                    "gameTimeInSec": 12634.98
+                    "gameTime": "88:51.6850",
+                    "gameTimeInSec": 12631.685
                 },
                 "playerId": 51567,
                 "toPosition": "DEFENSE_MIDFIELD",
@@ -626,14 +626,10 @@
             {
                 "gameTime": "88:51.6850",
                 "gameTimeInSec": 12631.685,
-                "formation": "UNKNOWN"
-            },
-            {
-                "gameTime": "88:54.9800",
-                "gameTimeInSec": 12634.98,
                 "formation": "4-1-3-2"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 5429
+    },
+    "stadiumId": 870
 }

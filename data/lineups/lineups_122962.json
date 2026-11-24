@@ -1,7 +1,7 @@
 {
     "id": 122962,
     "dateTime": "2023-12-10T14:30:00Z",
-    "lastCalculationDate": "2025-07-24T00:54:43.484877Z",
+    "lastCalculationDate": "2026-11-21T13:11:17.004200Z",
     "iterationId": 743,
     "squadHome": {
         "id": 46,
@@ -251,8 +251,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "84:38.6360",
-                    "gameTimeInSec": 12378.636
+                    "gameTime": "83:40.8890",
+                    "gameTimeInSec": 12320.889
                 },
                 "playerId": 27426,
                 "toPosition": "BANK",
@@ -264,8 +264,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "84:38.6360",
-                    "gameTimeInSec": 12378.636
+                    "gameTime": "83:40.8890",
+                    "gameTimeInSec": 12320.889
                 },
                 "playerId": 31448,
                 "toPosition": "LEFT_WINGBACK_DEFENDER",
@@ -277,8 +277,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "84:38.6360",
-                    "gameTimeInSec": 12378.636
+                    "gameTime": "83:40.8890",
+                    "gameTimeInSec": 12320.889
                 },
                 "playerId": 41429,
                 "toPosition": "ATTACKING_MIDFIELD",
@@ -290,8 +290,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "84:38.6360",
-                    "gameTimeInSec": 12378.636
+                    "gameTime": "83:40.8890",
+                    "gameTimeInSec": 12320.889
                 },
                 "playerId": 44929,
                 "toPosition": "BANK",
@@ -303,8 +303,8 @@
             },
             {
                 "gameTime": {
-                    "gameTime": "84:38.6360",
-                    "gameTimeInSec": 12378.636
+                    "gameTime": "83:40.8890",
+                    "gameTimeInSec": 12320.889
                 },
                 "playerId": 53526,
                 "toPosition": "RIGHT_WINGBACK_DEFENDER",
@@ -323,7 +323,7 @@
                 "formation": "4-2-3-1"
             }
         ],
-        "coachId": null
+        "coachId": 661
     },
     "squadAway": {
         "id": 41,
@@ -580,6 +580,7 @@
                 "formation": "5-2-2-1"
             }
         ],
-        "coachId": null
-    }
+        "coachId": 799
+    },
+    "stadiumId": 819
 }
